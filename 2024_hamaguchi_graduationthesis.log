@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  2 FEB 2025 13:36
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  3 FEB 2025 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -274,7 +274,7 @@ File: l3backend-dvipdfmx.def 2024-03-14 L3 backend support: dvipdfmx
 \g__pdf_backend_object_int=\count290
 \g__pdf_backend_annotation_int=\count291
 \g__pdf_backend_link_int=\count292
-) (./2024_hamaguchi_graduationthesis.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/bibliography.aux))
+) (./2024_hamaguchi_graduationthesis.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
 \openout1 = `2024_hamaguchi_graduationthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -351,19 +351,281 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
  [1
 
 ]
-\openout2 = `chapters/bibliography.aux'.
+\openout2 = `chapters/sec2.aux'.
 
- (./chapters/bibliography.tex (./2024_hamaguchi_graduationthesis.bbl
-LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 26.
-))
+ (./chapters/sec2.tex
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
+File: image/MPA_kousei.png Graphic file (type bmp)
+<image/MPA_kousei.png>
+File: image/MPA_dousa.png Graphic file (type bmp)
+<image/MPA_dousa.png>
+File: image/hikaku.jpg Graphic file (type bmp)
+<image/hikaku.jpg>
+File: image/kinkokkaku.JPG Graphic file (type bmp)
+<image/kinkokkaku.JPG>
+File: image/takoJPG.JPG Graphic file (type bmp)
+<image/takoJPG.JPG>
+
+Overfull \hbox (6.3852pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 56--71
+[][]$[]$[] []$[]$[] 
+ []
+
+File: image/syusyuku.png Graphic file (type bmp)
+<image/syusyuku.png>
+File: image/method.png Graphic file (type bmp)
+<image/method.png>
+)
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [2
 
 
 
-] (./2024_hamaguchi_graduationthesis.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/bibliography.aux))
+]
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [3]
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [4]
+\openout2 = `chapters/sec3.aux'.
+
+ (./chapters/sec3.tex
+File: image/kokkaku.png Graphic file (type bmp)
+<image/kokkaku.png>
+File: image/apearance3_1.png Graphic file (type bmp)
+<image/apearance3_1.png>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 111--168
+[][]$[]$[] []$[]$[]
+ []
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 111--168
+[]$[]$[] []$[]$[] 
+ []
+
+File: image/setu.PNG Graphic file (type bmp)
+<image/setu.PNG>
+File: image/kaiten.png Graphic file (type bmp)
+<image/kaiten.png>
+File: image/maku1.JPG Graphic file (type bmp)
+<image/maku1.JPG>
+File: image/setukanmaku.jpg Graphic file (type bmp)
+<image/setukanmaku.jpg>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 187--217
+[]$[]$[] []$[]$[] 
+ []
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [5
+
+
+
+]
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [6]
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [7]
+File: image/ujo.JPG Graphic file (type bmp)
+<image/ujo.JPG>
+File: image/libinia.png Graphic file (type bmp)
+<image/libinia.png>
+File: image/crabct2.PNG Graphic file (type bmp)
+<image/crabct2.PNG>
+
+Overfull \hbox (20.9853pt too wide) in paragraph at lines 266--267
+ [][] 
+ []
+
+File: image/crabct1.PNG Graphic file (type bmp)
+<image/crabct1.PNG>
+
+Overfull \hbox (20.9853pt too wide) in paragraph at lines 274--275
+ [][] 
+ []
+
+)
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [8]
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [9]
+\openout2 = `chapters/sec4.aux'.
+
+ (./chapters/sec4.tex
+File: image/greenkitai.JPG Graphic file (type bmp)
+<image/greenkitai.JPG>
+File: image/syuseki_yobi.png Graphic file (type bmp)
+<image/syuseki_yobi.png>
+File: image/syuseki_yobi2.jpg Graphic file (type bmp)
+<image/syuseki_yobi2.jpg>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 15--27
+[][]$[]$[] []$[]$[] 
+ []
+
+File: image/airtube_yobi.jpg Graphic file (type bmp)
+<image/airtube_yobi.jpg>
+File: image/yobi_syuseki.JPG Graphic file (type bmp)
+<image/yobi_syuseki.JPG>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 28--41
+[][]$[]$[] []$[]$[] 
+ []
+
+File: image/air_moshiki.png Graphic file (type bmp)
+<image/air_moshiki.png>
+File: image/yobi_open.png Graphic file (type bmp)
+<image/yobi_open.png>
+File: image/yobi_close.png Graphic file (type bmp)
+<image/yobi_close.png>
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [10
+
+
+
+]
+File: image/kitaimethod.png Graphic file (type bmp)
+<image/kitaimethod.png>
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [11]
+File: image/robot_scale.JPG Graphic file (type bmp)
+<image/robot_scale.JPG>
+File: image/bearingu.JPG Graphic file (type bmp)
+<image/bearingu.JPG>
+File: image/bearinguj.png Graphic file (type bmp)
+<image/bearinguj.png>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 131--146
+[][]$[]$[] []$[]$[] 
+ []
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [12]
+File: image/ken.JPG Graphic file (type bmp)
+<image/ken.JPG>
+File: image/MPA_tanbu.JPG Graphic file (type bmp)
+<image/MPA_tanbu.JPG>
+File: image/syuseki.JPG Graphic file (type bmp)
+<image/syuseki.JPG>
+File: image/mosiki.JPG Graphic file (type bmp)
+<image/mosiki.JPG>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 204--234
+[][]$[]$[] []$[]$[]
+ []
+
+File: image/syusekikotei.png Graphic file (type bmp)
+<image/syusekikotei.png>
+File: image/kenkotei.png Graphic file (type bmp)
+<image/kenkotei.png>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 239--252
+[][]$[]$[] []$[]$[] 
+ []
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [13]
+File: image/move1all.png Graphic file (type bmp)
+<image/move1all.png>
+File: image/move2all.png Graphic file (type bmp)
+<image/move2all.png>
+File: image/kousatu1.png Graphic file (type bmp)
+<image/kousatu1.png>
+File: image/kousatu2_1.png Graphic file (type bmp)
+<image/kousatu2_1.png>
+File: image/kousatu2_2.png Graphic file (type bmp)
+<image/kousatu2_2.png>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 296--310
+[][]$[]$[] []$[]$[] 
+ []
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [14])
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [15]
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [16]
+\openout2 = `chapters/sec5.aux'.
+
+ (./chapters/sec5.tex)
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [17
+
+
+
+]
+\openout2 = `chapters/conclusion.aux'.
+
+ (./chapters/conclusion.tex)
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [18
+
+
+
+]
+\openout2 = `chapters/acknowledgement.aux'.
+
+ (./chapters/acknowledgement.tex)
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [19
+
+
+
+]
+\openout2 = `chapters/bibliography.aux'.
+
+ (./chapters/bibliography.tex (./2024_hamaguchi_graduationthesis.bbl
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 26.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 55.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 61.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 66.
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [20
+
+
+
+]))
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [21] (./2024_hamaguchi_graduationthesis.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
@@ -371,12 +633,12 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5500 strings out of 474761
- 94244 string characters out of 5761786
- 1924341 words of memory out of 5000000
- 27778 multiletter control sequences out of 15000+600000
- 565447 words of font info for 67 fonts, out of 8000000 for 9000
+ 6067 strings out of 474761
+ 107038 string characters out of 5761786
+ 1949341 words of memory out of 5000000
+ 28235 multiletter control sequences out of 15000+600000
+ 573253 words of font info for 94 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 71i,14n,79p,388b,418s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 71i,14n,79p,446b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 2024_hamaguchi_graduationthesis.dvi (6 pages, 11572 bytes).
+Output written on 2024_hamaguchi_graduationthesis.dvi (25 pages, 74176 bytes).
