@@ -74,26 +74,51 @@ MPAの収縮力は断面積に比例するため，細径MPAは従来のもの�
   %
 \begin{figure}[t]
   %
-  \begin{minipage}{1\columnwidth}
+  \begin{minipage}{0.47\columnwidth}
     \centering
-    \includegraphics[scale=0.1]{image/syusyuku.png}
-    \vspace{-3mm}
-    \caption{収縮率}
-    \label{fig:syusyuku}
+    \includegraphics[scale=0.2]{image/robot_scale.JPG}
+    \vspace{3mm}
+    \caption{先行研究で作製された歩脚ロボット\cite{hasegawa}}
+    \label{fig:senkoukenkyuu}
   \end{minipage}
   %
-  \begin{minipage}{1\columnwidth}
+  \begin{minipage}{0.47\columnwidth}
     \centering
     \vspace{3mm}
-    \includegraphics[scale=0.3]{image/method.png}
-    \caption{細径MPAの作製手順}
-    \label{fig:method}
+    \includegraphics[scale=0.07]{image/mosiki.JPG}
+    \caption{先行研究で開発された羽状筋\cite{hasegawa}}
+    \label{fig:ujyoukin}
   \end{minipage}
   %
+\end{figure}
+%%
+\begin{figure}[tbp]
+  \begin{minipage}{1\hsize}
+    \centering
+    \includegraphics[scale=0.12]{image/move1all.png}
+    \subcaption{長節-腕節間の動作\cite{hasegawa}}
+    \label{fig:move1}
+  \end{minipage}
+  %
+  \begin{minipage}{1\hsize}
+    \centering
+    \includegraphics[scale=0.12]{image/move2all.png}
+    \subcaption{腕節-前節間の動作\cite{hasegawa}}
+    \label{fig:move2}
+  \end{minipage}
+%
+  \caption{動作実験}
+  \label{fig:movea12}
 \end{figure}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{先行研究の成果と課題}
-
-
-
+先行研究では図\ref{fig:senkoukenkyuu}\cite{hasegawa}のような歩脚ロボットの作製に成功した．このロボットでは図\ref{fig:ujyoukin}\cite{hasegawa}のように細径MPAを用いて蟹の羽のような筋肉である羽状筋と呼ばれる筋肉を再現することができた．
+このロボットで動作実験を行い図\ref{fig:movea12}\cite{hasegawa}のように開閉動作をすることを確認することができた．
+しかし，以下のような課題点が見つかった
+\begin{enumerate}
+  \item 細径MPAの作製方法が煩雑で時間がかかってしまい，成功させるのに技術が必要
+  \item 細径MPAの収縮性能が低くて，腱が少ししか引き込めなかった
+  \item 細径MPAの根元部分の角度が固定されていて，腱を引き込む妨げになっていた
+\end{enumerate}
+そこで本研究では，上記のような先行研究で見つかった課題点を解決した歩脚ロボットの作製に取り組む．

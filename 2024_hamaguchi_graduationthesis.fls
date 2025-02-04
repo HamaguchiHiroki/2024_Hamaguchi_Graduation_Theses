@@ -218,14 +218,22 @@ INPUT ./image/takoJPG.JPG
 INPUT ./image/takoJPG.JPG
 INPUT ./image/takoJPG.JPG
 INPUT extractbb -B cropbox -O image/takoJPG.JPG
-INPUT ./image/syusyuku.png
-INPUT ./image/syusyuku.png
-INPUT ./image/syusyuku.png
-INPUT extractbb -B cropbox -O image/syusyuku.png
-INPUT ./image/method.png
-INPUT ./image/method.png
-INPUT ./image/method.png
-INPUT extractbb -B cropbox -O image/method.png
+INPUT ./image/robot_scale.JPG
+INPUT ./image/robot_scale.JPG
+INPUT ./image/robot_scale.JPG
+INPUT extractbb -B cropbox -O image/robot_scale.JPG
+INPUT ./image/mosiki.JPG
+INPUT ./image/mosiki.JPG
+INPUT ./image/mosiki.JPG
+INPUT extractbb -B cropbox -O image/mosiki.JPG
+INPUT ./image/move1all.png
+INPUT ./image/move1all.png
+INPUT ./image/move1all.png
+INPUT extractbb -B cropbox -O image/move1all.png
+INPUT ./image/move2all.png
+INPUT ./image/move2all.png
+INPUT ./image/move2all.png
+INPUT extractbb -B cropbox -O image/move2all.png
 INPUT ./chapters/sec3.tex
 INPUT ./chapters/sec3.tex
 OUTPUT chapters/sec3.aux
@@ -240,6 +248,18 @@ INPUT ./image/apearance3_1.png
 INPUT ./image/apearance3_1.png
 INPUT ./image/apearance3_1.png
 INPUT extractbb -B cropbox -O image/apearance3_1.png
+INPUT ./image/setukanmaku.jpg
+INPUT ./image/setukanmaku.jpg
+INPUT ./image/setukanmaku.jpg
+INPUT extractbb -B cropbox -O image/setukanmaku.jpg
+INPUT ./image/ujo.JPG
+INPUT ./image/ujo.JPG
+INPUT ./image/ujo.JPG
+INPUT extractbb -B cropbox -O image/ujo.JPG
+INPUT ./image/degree_jikken.jpg
+INPUT ./image/degree_jikken.jpg
+INPUT ./image/degree_jikken.jpg
+INPUT extractbb -B cropbox -O image/degree_jikken.jpg
 INPUT ./image/setu.PNG
 INPUT ./image/setu.PNG
 INPUT ./image/setu.PNG
@@ -252,14 +272,6 @@ INPUT ./image/maku1.JPG
 INPUT ./image/maku1.JPG
 INPUT ./image/maku1.JPG
 INPUT extractbb -B cropbox -O image/maku1.JPG
-INPUT ./image/setukanmaku.jpg
-INPUT ./image/setukanmaku.jpg
-INPUT ./image/setukanmaku.jpg
-INPUT extractbb -B cropbox -O image/setukanmaku.jpg
-INPUT ./image/ujo.JPG
-INPUT ./image/ujo.JPG
-INPUT ./image/ujo.JPG
-INPUT extractbb -B cropbox -O image/ujo.JPG
 INPUT ./image/libinia.png
 INPUT ./image/libinia.png
 INPUT ./image/libinia.png
@@ -319,7 +331,6 @@ INPUT extractbb -B cropbox -O image/kitaimethod.png
 INPUT ./image/robot_scale.JPG
 INPUT ./image/robot_scale.JPG
 INPUT ./image/robot_scale.JPG
-INPUT extractbb -B cropbox -O image/robot_scale.JPG
 INPUT ./image/bearingu.JPG
 INPUT ./image/bearingu.JPG
 INPUT ./image/bearingu.JPG
@@ -343,7 +354,6 @@ INPUT extractbb -B cropbox -O image/syuseki.JPG
 INPUT ./image/mosiki.JPG
 INPUT ./image/mosiki.JPG
 INPUT ./image/mosiki.JPG
-INPUT extractbb -B cropbox -O image/mosiki.JPG
 INPUT ./image/syusekikotei.png
 INPUT ./image/syusekikotei.png
 INPUT ./image/syusekikotei.png
@@ -355,11 +365,9 @@ INPUT extractbb -B cropbox -O image/kenkotei.png
 INPUT ./image/move1all.png
 INPUT ./image/move1all.png
 INPUT ./image/move1all.png
-INPUT extractbb -B cropbox -O image/move1all.png
 INPUT ./image/move2all.png
 INPUT ./image/move2all.png
 INPUT ./image/move2all.png
-INPUT extractbb -B cropbox -O image/move2all.png
 INPUT ./image/kousatu1.png
 INPUT ./image/kousatu1.png
 INPUT ./image/kousatu1.png
