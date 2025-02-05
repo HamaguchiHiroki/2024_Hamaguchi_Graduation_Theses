@@ -58,8 +58,8 @@
 実際の蟹の可動域を先行研究では解剖を行い測定した．解剖には甲殻類の十脚目短尾下目ケセンガニ科のズワイガニを用いた．
 測定している様子を図\ref{fig:sokutei}に示す．測定方法は，可動域を測定したい関節の軸を分度器の中心に合わせる．その時に関節の身体側の節の中心を 180°の線に合うように配置する．
 そして蟹の脚で開閉動作を行い，脚先側の節の中心が閉じた状態と開いた状態での角度をそれぞれ測定してそれらを可動域とした．
-なお，本研究では図\ref{fig:zuwai}中の4と書かれている下から4番目の節(第4肢)の可動域のデータを用いて機体を作製した．
-第4肢の可動域を以下に示す．
+なお，本研究では図\ref{fig:zuwai}中の4と書かれている下から4番目の節(第4肢)の可動域のデータを用いて機体を作製する．
+第4肢の可動域を上に示す．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[t]
   \centering
@@ -85,57 +85,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \subsection{外骨格の設計方法}
 \subsubsection{外骨格の寸法}
-
+本研究で作製する歩脚ロボットは先行研究で行われた蟹の解剖の際に測定された寸法をもとに設計した．
+測定された寸法を以下の表に示す．本研究では第4肢をモデルにして歩脚ロボットを作成する．
+なお，歩脚ロボットは外骨格内部へアクチュエータの配置が困難なことから長節，前節，指節では実測値に対して直径方向に7倍，直径方向には3.5倍，腕節は他の節より長手方向のみ5.2倍にした．
+長手方向の具体的な寸法としては，長節が 350mm，腕節が 256mm，前節が 245mm，指節が 100mmである
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{機体の可動域計算に用いた簡易モデル}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table}[htbp]
-  \centering
-  \caption{第1肢の長節から指節の寸法}
-  \label{tab:1setu}
-  \vspace{-3mm}
-  \begin{tabular}{|l|c|c|c|c|c|}
-  \hline
-     & \multicolumn{1}{l|}{幅-左 [mm]} & \multicolumn{1}{l|}{幅-中 [mm]} & \multicolumn{1}{l|}{幅-右 [mm]} & \multicolumn{1}{l|}{厚み [mm]} & \multicolumn{1}{l|}{長さ [mm]} \\ \hline
-  長節 & 12.01                       & 12.01                       & 8.86                        & 7.68                        & 52.0                        \\ \hline
-  腕節 & 6.11                        & -                           & 9.85                        & 7.60                        & 14.5                        \\ \hline
-  前節 & 10.39                       & -                           & 7.12                        & 4.26                        & 38.0                        \\ \hline
-  指節 & -                           & 4.51                        & -                           & 3.36                        & 24.5                        \\ \hline
-  \end{tabular}
-\end{table}
-%
-\begin{table}[htbp]
-  \centering
-  \caption{第2肢の長節から指節の寸法}
-  \label{tab:2setu}
-  \vspace{-3mm}
-  \begin{tabular}{|l|c|c|c|c|c|}
-  \hline
-     & \multicolumn{1}{l|}{幅-左 [mm]} & \multicolumn{1}{l|}{幅-中 [mm]} & \multicolumn{1}{l|}{幅-右 [mm]} & \multicolumn{1}{l|}{厚み [mm]} & \multicolumn{1}{l|}{長さ [mm]} \\ \hline
-  長節 & 18.10                       & 19.05                       & 11.85                       & 9.18                        & 87.5                        \\ \hline
-  腕節 & 8.59                        & -                           & 16.14                       & 7.32                        & 27.5                        \\ \hline
-  前節 & 16.14                       & -                           & 8.83                        & 4.40                        & 58.5                        \\ \hline
-  指節 & -                           & 5.43                        & -                           & 2.65                        & 25.0                        \\ \hline
-  \end{tabular}
-\end{table}
-%
-\begin{table}[htbp]
-  \centering
-  \caption{第3肢の長節から指節の寸法}
-  \label{tab:3setu}
-  \vspace{-3mm}
-  \begin{tabular}{|l|c|c|c|c|c|}
-  \hline
-     & \multicolumn{1}{l|}{幅-左 [mm]} & \multicolumn{1}{l|}{幅-中 [mm]} & \multicolumn{1}{l|}{幅-右 [mm]} & \multicolumn{1}{l|}{厚み [mm]} & \multicolumn{1}{l|}{長さ [mm]} \\ \hline
-  長節 & 18.38                       & 20.88                       & 13.56                       & 9.98                        & 102.0                       \\ \hline
-  腕節 & 9.70                        & -                           & 17.30                       & 9.12                        & 31.5                        \\ \hline
-  前節 & 17.06                       & -                           & 9.01                        & 4.91                        & 63.5                        \\ \hline
-  指節 & -                           & 5.62                        & -                           & 3.93                        & 27.5                        \\ \hline
-  \end{tabular}
-\end{table}
-%
-\begin{table}[htbp]
+\begin{table}[h]
   \centering
   \caption{第4肢の長節から指節の寸法}
   \label{tab:4setu}
@@ -148,183 +103,14 @@
   前節 & 16.48                       & -                           & 10.40                       & 4.68                        & 70.0                        \\ \hline
   指節 & -                           & 5.60                        & -                           & 3.69                        & 30.0                        \\ \hline
   \end{tabular}
-  \end{table}
-  %
-  \begin{table}[htbp]
-    \centering
-    \caption{第5肢(鋏脚)の長節から指節の寸法}
-    \label{tab:5setu}
-    \vspace{-3mm}
-    \begin{tabular}{|c|c|c|c|}
-    \hline
-    \multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{幅(左-中-右) {[}mm{]}} & \multicolumn{1}{l|}{厚み(左-中-右) {[}mm{]}} & \multicolumn{1}{l|}{長さ [mm]} \\ \hline
-    長節                     & 18.10-18.23-18.24                     & 11.72-15.05-15.89                      & 63.5                        \\ \hline
-    腕節                     & 11.70-18.40-19.31                     & 13.23-18.64-17.03                      & 15.5                        \\ \hline
-    前節                     & 22.97-25.82-25.06                     & 14.75-21.30-19.09                      & 50.0                        \\ \hline
-    前節(鋏部)                 & 8.64-－-－                              & －-－-4.45                          & 45.0                      \\ \hline
-    指節                     & 8.15-－-－                              & －-－-4.26                               & 50.0                        \\ \hline
-    \end{tabular}
-  \end{table}
-  %
-  \begin{table}[htbp]
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \caption{第1肢の節間の可動域}
-    \label{tab:1kadou}
-    \vspace{-3mm}
-    \begin{tabular}{|l|c|}
-    \hline
-       & \multicolumn{1}{l|}{可動域 [deg]} \\ \hline
-    長節-腕節間 & 0-155                         \\ \hline
-    腕節-前節間 & 0-81                          \\ \hline
-    前節-指節間 & 0-110                         \\ \hline
-    \end{tabular}
-  \end{minipage}
-  %
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \caption{第2肢の節間の可動域}
-    \label{tab:2kadou}
-    \vspace{-3mm}
-    \begin{tabular}{|l|c|}
-    \hline
-       & \multicolumn{1}{l|}{可動域 [deg]} \\ \hline
-    長節-腕節間 & 0-145                         \\ \hline
-    腕節-前節間 & 0-50                          \\ \hline
-    前節-指節間 & 0-90                          \\ \hline
-    \end{tabular}
-  \end{minipage}
-  %
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \vspace{5mm}
-    \caption{第3肢の節間の可動域}
-    \label{tab:3kadou}
-    \vspace{-3mm}
-    \begin{tabular}{|l|c|}
-    \hline
-       & \multicolumn{1}{l|}{可動域 [deg]} \\ \hline
-    長節-腕節間 & 0-150                         \\ \hline
-    腕節-前節間 & 0-45                          \\ \hline
-    前節-指節間 & 0-80                          \\ \hline
-    \end{tabular}
-  \end{minipage}
-  %
-  %\begin{minipage}{0.5\hsize}
-  %  \centering
-  %  \vspace{5mm}
-  %  \caption{第4肢の節間の可動域}
-  % \label{tab:4setukadou}
-  %  \vspace{-3mm}
-  %  \begin{tabular}{|l|c|}
-  % \hline
-  %        & \multicolumn{1}{l|}{可動域 {[}deg{]}} \\ \hline
-  % 長節-腕節間 & 0-140                            \\ \hline
-  %  腕節-前節間 & 0-45                             \\ \hline
-  %  前節-指節間 & 0-89                            \\ \hline
-  %  \end{tabular}
-  %\end{minipage}
 \end{table}
-%
-\begin{table}[htbp]
-  \centering
-  \vspace{5mm}
-  \caption{第5肢の節間の可動域}
-  \label{tab:5kadou}
-  \vspace{-3mm}
-  \begin{tabular}{|l|c|}
-  \hline
-         & \multicolumn{1}{l|}{可動域 [deg]} \\ \hline
-  長節-腕節間 & 70-140                        \\ \hline
-  腕節-前節間 & 0-40                          \\ \hline
-  前節-指節間 & 15-30                         \\ \hline
-  \end{tabular}
-  \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[t]
-%
-  \begin{minipage}{1\hsize}
-    \centering
-    \includegraphics[scale=0.52]{image/setu.PNG}
-    \caption{節の名称\cite{crabnature}}
-    \vspace{3mm}
-    \label{fig:setu}
-  \end{minipage}
-%
-  \begin{minipage}{1\hsize}
-    \centering
-    \includegraphics[scale=0.26]{image/kaiten.png}
-    \caption{ズワイガニの脚の可動域}
-    \label{fig:kaiten}
-  \end{minipage}
-  %
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \vspace{3mm}
-    \includegraphics[scale=0.24]{image/maku1.JPG}
-    \caption{節間膜}
-    \label{fig:maku}
-  \end{minipage}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{15mm}
-\subsection{蟹の関節構造と筋構造および筋配置}
-\subsubsection{関節構造}
-蟹の脚は鋏脚と歩脚の5対10本から構成され，それぞれの脚は甲に近いほうから底節，基節，座節，長節，腕節，前節，指節の7つの節からなる(図\ref{fig:setu})．基節，座節の間の関節は融合し1つの節のように見える場合もある\cite{crabnature}．
-脚を構成する7つの節が接する関節の部分はそれぞれ動く方向が決まっており，底節は複雑に配置された筋によって前後左右に動かすことが可能であるが，それよりも遠位の関節は基本的には単純な開閉動作をする．
-図\ref{fig:kaiten}に解剖したズワイガニの歩脚に回転軸を追記したものを示す．
-今回用いるズワイガニに関しては長節から指節のうち，腕節-前節間は前後に可動域を持つが，それ以外の節間は甲から腹側への開閉方向の可動域を持つことが分かった．
-また，それぞれの節間には節間膜と呼ばれる丈夫で柔軟なクチクラ質の組織によって繋がっている(図\ref{fig:maku})．
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{筋構造}
-蟹の脚の筋肉について，蟹の脚内部を充填する筋繊維の一端は節の内壁に付着し，もう一方は腱と呼ばれる組織，いわゆる蟹のすじに付着する．
-腱は隣の関節の端に繋がっており，筋繊維が収縮することによって腱が引っ張られ節が開閉する．
-ズワイガニを解剖した際に記録した長節-腕節間の腱の様子を図\ref{fig:ken}に示す．
-解剖結果よりズワイガニの腱は節間膜と一体になるように挿入されていることが分かった．
-筋繊維は腱に対して斜めに充填されており，このように配置された筋繊維を羽状筋という．
-羽状筋の動きの模式図を図\ref{fig:ujo}に示す．
-羽状筋には2つの利点があるとされている．1つ目は収縮しても膨張せず，羽状筋の角度が大きくなるだけなので限られた狭い空間で働くのに適していること，2つ目は同じ形状と体積の平行筋と比べ収縮時に約2倍の力を発揮することが出来ることである\cite{warner1977biology}．
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{筋配置}
-脚内部の筋肉配置について，同じく十脚目短尾下目のLibinia emarginataの歩脚と鋏脚の筋構造を図\ref{fig:libinia}に，ヨーロッパイチョウガニとヨーロッパミドリガニの歩脚をCTスキャンしたものを図\ref{fig:ct}\subref{fig:ct1}，\subref{fig:ct2}に示す．
-図\ref{fig:libinia}，図\ref{fig:ct}より，3種の歩脚の長節以降の筋配置は非常に似ていることが分かり，腕節-前節間，前節-指節間は節の可動域に沿って配置されているが，長節-腕節間は可動域よらず縦に配置されている．
-また，図\ref{fig:libinia}より，底節，基節，座節部分は複雑な筋配置となっていることが分かる．
-本研究ではズワイガニの長節-指節間の筋配置はこれらと同様なものとして扱い，節を開く方向に作用する羽状筋を開筋，閉じる方向へと作用するものを閉筋とする．
-また，筋配置が複雑な底節，基節，座節は扱わないものとする．
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  
-\begin{figure}[t]
-  \centering
-  \vspace{-3mm}
-  \includegraphics[scale=0.25]{image/libinia.png}
-  \caption{Libinia emarginataの歩脚と鋏脚の筋構造\cite{VIDALGADEA2009179}}
-  \label{fig:libinia}
-\end{figure}
-%
-\begin{figure}[t]
-%
-  \begin{minipage}{0.45\hsize}
-    \centering
-    \vspace{5mm}
-    \includegraphics[scale=0.5]{image/crabct2.PNG}
-    \subcaption{ヨーロッパイチョウガニ}
-    % \vspace{3mm}
-    \label{fig:ct1}
-  \end{minipage}
-  %
-  \begin{minipage}{0.45\hsize}
-    \centering
-    \includegraphics[scale=0.5]{image/crabct1.PNG}
-    \subcaption{ヨーロッパミドリガニ}
-    % \vspace{3mm}
-    \label{fig:ct2}
-  \end{minipage}
-  \caption{歩脚のctスキャン画像\cite{HAZERLI2020100972}}
-  \label{fig:ct}
-%
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{機体の可動域計算に用いた簡易モデル}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{3次元CADを用いた設計}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 

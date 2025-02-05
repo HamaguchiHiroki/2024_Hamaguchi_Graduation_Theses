@@ -1,83 +1,13 @@
 \newpage
 \section{細径MPAを用いた歩脚ロボットの開発}
-本章では実際に作製した歩脚ロボットの構成について述べる．
-まず初めに羽状配置での動作確認を行うために作製した予備実験の機体の構成とその実験結果についてまとめ，その次に実際のズワイガニの構成と寸法をもとにした機体とその動作実験の結果について述べる．
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[b]
-  \centering
-  \includegraphics[scale=0.21]{image/greenkitai.JPG}
-  \caption{実験機の外観}
-  \label{fig:pkitai}
-\end{figure}
-%
-\begin{figure}[t]
-  %
-  \begin{minipage}{0.5\hsize}
-    \centering  
-    \includegraphics[scale=0.16]{image/syuseki_yobi.png}
-    \subcaption{腱部分}
-    \label{fig:pken}
-  \end{minipage}
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \includegraphics[scale=0.16]{image/syuseki_yobi2.jpg}
-    \subcaption{MPA端部}
-    \label{fig:ptanbu}
-  \end{minipage}\\
-
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \includegraphics[scale=0.22]{image/airtube_yobi.jpg}
-    \subcaption{空気分岐部品}
-    \label{fig:pairtube}
-  \end{minipage}
-  \begin{minipage}{0.5\hsize}
-    % \vspace{3mm}
-    \centering  
-    \includegraphics[scale=0.75]{image/yobi_syuseki.JPG}
-    \subcaption{半羽状筋状に集積した様子}
-    \label{fig:psyuseki}
-  \end{minipage}\\
-
-  \begin{minipage}{1\hsize}
-    \vspace{3mm}
-    \centering
-    \includegraphics[scale=0.06]{image/air_moshiki.png}
-    \subcaption{模式図}
-    \label{fig:pmoshiki}
-  \end{minipage}
-  %
-  \caption{予備実験に用いた集積部品}
-  \label{fig:yobisyuseki}
-\end{figure}
-%
-\begin{figure}[t]
-  \begin{minipage}{1\hsize}
-    \centering
-    \includegraphics[scale=0.14]{image/yobi_open.png}
-    \vspace{-1mm}
-    \subcaption{開筋の動作}
-    \label{fig:popen}
-  \end{minipage}
-  %
-  \begin{minipage}{1\hsize}
-    \centering
-    \vspace{3mm}
-    \includegraphics[scale=0.14]{image/yobi_close.png}
-    \subcaption{閉筋の動作}
-    \label{fig:pclose}
-  \end{minipage}
-  % \vspace{-5mm}
-  \caption{予備実験}
-  \label{fig:yobijikken}
-\end{figure}
+本章では本研究で用いた改良した細径MPAの作製方法，それを用いた羽状筋の再現方法について述べる．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{羽状筋再現方法}
 \subsubsection{細径MPA作製方法}
 本研究で用いる3 mmの細径MPAの作製方法について説明する．
 構造は2.1節で述べた従来のMPAと同様，シリコンゴムチューブをナイロン繊維メッシュで覆ったシンプルなもので，0.4～0.6 MPaで駆動し収縮率は約20 ％である．
-おおまかな作製手順を図に示す．
-端部の締結方法として端部に光造形方式の3Dプリンタで出力した部品を取り付ける方法(4.1.2節で使用)もあるが，ここでは直に紐で結び締結する手法を紹介する．
+おおまかな作製手順を図\ref{fig:shingata_sakuseihouhou}に示す．
+端部の締結方法はOリングを用いる方法を採用した．
 図中\textcircled{\scriptsize 1}に示した物品が作製に必要なもので左から以下の通りである．
 %
 \begin{itemize}
@@ -94,16 +24,136 @@
   \item まず初めにシリコンゴムチューブを任意の長さで切り，ナイロンメッシュをシリコンゴムチューブより5 cm程長く切る
   \item シリコンゴムチューブの両端をそれぞれ光造形の部品の溝に差し込み，部品とシリコンゴムチューブの間に接着剤を塗布する(図中\textcircled{\scriptsize 2})
   \item 接着剤が十分に乾いたら編組チューブを被せる(図中\textcircled{\scriptsize 3})
-  \item ナイロンメッシュを押さえつけ，かつ光造形のOリング固定溝にはまるようにOリングを配置する．固定する際にナイロンメッシュが緩まないようにOリングを固定する
-  \item 締結した部分に接着剤を塗布し，緩まないようにする(図中\textcircled{\scriptsize 5})
-  \item 接着剤が十分に乾いたら余分なナイロンメッシュを切り取る(図中\textcircled{\scriptsize 6})
-  \item ポリウレタンチューブを光造形の部品に差し込み，部品とポリウレタンチューブの間に接着剤を塗布し乾燥したら完成
+  \item ナイロンメッシュを押さえつけ，かつ光造形のOリング固定溝にはまるようにOリングを配置する．固定する際にナイロンメッシュが緩まないようにOリングを固定する(図中\textcircled{\scriptsize 4})
+  \item 締結した部分に接着剤を塗布し，緩まないようにする
+  \item 接着剤が十分に乾いたら余分なナイロンメッシュを切り取る(図中\textcircled{\scriptsize 5})
+  \item ポリウレタンチューブを光造形の部品に差し込み，部品とポリウレタンチューブの間に接着剤を塗布し乾燥させて完成
 \end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.4]{image/sakusei.jpg}
+  \caption{改良型細径MPAの作製方法}
+  \label{fig:shingata_sakuseihouhou}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{細径MPA締結方法の改善}
+先行研究の細径MPA締結方法を図\ref{fig:MPA_tanbu_1}\subref{fig:MPA_tanbu_1_1}に示す．
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering  
+    \includegraphics[scale=0.6]{image/MPA_tanbu_1_1.jpg}
+    \subcaption{旧型細径MPA外観}
+    \label{fig:MPA_tanbu_1_1}
+  \end{minipage}
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering
+    \includegraphics[scale=0.6]{image/MPA_tanbu_1_2.jpg}
+    \subcaption{旧型細径MPA模式図}
+    \label{fig:MPA_tanbu_1_2}
+  \end{minipage}
+  %
+  \caption{先行研究で用いられた旧型細径MPA}
+  \label{fig:MPA_tanbu_1}
+\end{figure}
 %
+\begin{figure}
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering  
+    \includegraphics[scale=0.6]{image/MPA_tanbu_2_1.jpg}
+    \subcaption{新型細径MPA外観}
+    \label{fig:MPA_tanbu_2_1}
+  \end{minipage}
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering
+    \includegraphics[scale=0.6]{image/MPA_tanbu_2_2.jpg}
+    \subcaption{新型細径MPA模式図}
+    \label{fig:MPA_tanbu_2_2}
+  \end{minipage}
+  %
+  \caption{本研究で用いた新型細径MPA}
+  \label{fig:MPA_tanbu_2}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{細径MPA収縮率の向上}
-
+市販に売られている編組チューブは，図\ref{fig:messhu_henka}\subref{fig:messhu_1}のように断面が平たく折癖がついている．
+その状態の編組チューブを用いて細径MPAを作成すると，図\ref{fig:MPA_henka}\subref{fig:MPA_1}のようにシリコンゴムチューブと編組チューブの間に隙間が生じてしまう．
+これにより，自身の径方向に膨張し軸方向に収縮する細径MPAにとっては収縮率を低下させる原因となる．
+そこで本研究では，細径MPAの収縮性能を高めるために編組チューブを熱可塑変化させた．
+大まかな作成方法をず\ref{fig:messhu_method}に示す．
+図中\textcircled{\scriptsize 1}に示した物品が作製に必要なもので左から以下の通りである．
+%
+\begin{itemize}
+  \item Oリング $\phi$ 4($\pm$ 0.15) メーカー：モノタロウ 品番：1A-SS 4.5
+  \item ステンレス丸棒 $\phi$ 2mm メーカー：モノタロウ 品番：1378
+  \item 編組チューブ 1×5(最小径×最大径) メーカー：モノタロウ 品番：-
+  \item マスキングテープ テープ幅 15mm メーカー：モノタロウ 品番：15
+  \item ホットプレート メーカー：山善 品番：YHA-W102
+\end{itemize}
+%
+熱可塑変化の手順を以下に示す．
+\vspace{3mm}
+\begin{enumerate}
+  \item まず初めに，編み込みチューブをステンレス棒よりも 3cm程短い範囲で任意の長さに切る
+  \item 編み込みチューブにステンレス棒を差し込む(図中\textcircled{\scriptsize 2})
+  \item 編み込みチューブの内径がステンレス棒の外径になるようにマスキングテープで巻いて固定する(図中\textcircled{\scriptsize 3})
+  \item ホットプレートを 180℃まで温めて，編み込みチューブ全体に熱が伝わるように転がしながら3分間温める(図中\textcircled{\scriptsize 4})
+  \item 全体を冷水に漬けて，3分間ほど熱をとる(図中\textcircled{\scriptsize 5})
+  \item 粗熱が取れたらマスキングテープを外して完成
+\end{enumerate}
+熱可塑変化によって編組チューブは図\ref{fig:messhu_henka}のように折癖が取れ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[ht]
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering  
+    \includegraphics[scale=0.25]{image/messhu_hikaku_1.jpg}
+    \subcaption{変化前}
+    \label{fig:messhu_1}
+  \end{minipage}
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering
+    \includegraphics[scale=0.25]{image/messhu_hikaku_2.jpg}
+    \subcaption{変化後}
+    \label{fig:messhu_2}
+  \end{minipage}
+  %
+  \caption{メッシュの熱可塑変化の様子}
+  \label{fig:messhu_henka}
+\end{figure}
+%
+\begin{figure}[ht]
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering  
+    \includegraphics[scale=0.4]{image/hikaku_MPA_1.jpg}
+    \subcaption{変化前}
+    \label{fig:MPA_1}
+  \end{minipage}
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering
+    \includegraphics[scale=0.4]{image/hikaku_MPA_2.jpg}
+    \subcaption{変化後}
+    \label{fig:MPA_2}
+  \end{minipage}
+  %
+  \caption{細径MPAの熱可塑変化の様子}
+  \label{fig:MPA_henka}
+\end{figure}
+%
+\begin{figure}[ht]
+  \centering
+  \includegraphics[scale=0.4]{image/messhu_tejyun.jpg}
+  \caption{熱可塑変化の手順}
+  \label{fig:messhu_method}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{羽状角の自由度の再現}
 
@@ -111,212 +161,4 @@
 \subsection{作製した機体}
 \subsubsection{機体の構成および寸法}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[t]
-  \begin{minipage}{1\hsize}
-    \centering
-    \includegraphics[scale=0.12]{image/kitaimethod.png}
-    \caption{実機のSOLIDWORKS上での作製手順}
-    \label{fig:solidw}
-  \end{minipage}
-\end{figure}
-%
-\begin{figure}[tbp]
-  \centering
-  \includegraphics[scale=0.29]{image/robot_scale.JPG}
-  \caption{ズワイガニの歩脚を模したロボット}
-  \label{fig:jikki}
-\end{figure}
-%
-\begin{figure}[t]
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \vspace{3mm}
-    \includegraphics[scale=0.32]{image/bearingu.JPG}
-    \subcaption{CAD図面(SOLIDWORKS)}
-    \label{fig:bearingus}
-  \end{minipage}
-  %
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \vspace{7mm}
-    \includegraphics[scale=0.2]{image/bearinguj.png}
-    \subcaption{実物}
-    \label{fig:bearinguj}
-  \end{minipage}
-  \caption{関節構造}
-  \label{fig:bearingu}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-実際の蟹の寸法や可動域などをもとにした3次元3自由度を有する歩脚ロボットの機体について述べる．
-本研究では解剖時に測定したズワイガニの最も大きい歩脚(第4肢)について表\ref{tab:4setu}，表\ref{tab:4setukadou}に示した寸法および可動域を基に機体を作製した．
-図\ref{fig:solidw}に3DCADソフトのSOLIDWORKSを用いた機体の設計方法を示す．
-以下，設計手順である．
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{3mm}
-\begin{enumerate}
-  \item 測定した寸法を基に2～3個の楕円輪郭を描く
-  \item 描いた楕円輪郭をロフトで繋ぎ，立体にする(ロフト：2つ以上の輪郭を繋ぎ立体的な形状を作る機能)
-  \item シェルを用いて立体を厚み2 mmでくり抜く(シェル：指定した面を開けて均一な厚みにくり抜く機能)
-  \item 測定した可動域を実現できるよう端面をカットし，端部にベアリングを挿入できるように加工
-\end{enumerate}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-以上の手順で作製した機体を図\ref{fig:jikki}に示す．
-寸法については表\ref{tab:4setu}に示した実測値を小数点以下で切り捨て，直径方向へ7倍，長手方向へ3.5倍のサイズとした．
-ただし，直径方向へは集積部品の厚みも考慮して5 mm加えた．
-外殻の厚みは一律で2 mmとなっている．
-また，手順にもあるように関節部にはベアリングを使用した(図\ref{fig:bearingu}\subref{fig:bearingus}，\subref{fig:bearinguj})．
-具体的な機体の寸法を表\ref{tab:scalej}に，使用したベアリングの寸法を表\ref{tab:bearingu}に示す．
-機体の作製にはFDM方式の3Dプリンタを使用し，印刷の際は各節を半分にしてからそれぞれ出力した．
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table}[t]
-  \begin{minipage}{1\hsize}
-    \centering
-    \caption{実機寸法}
-    \label{tab:scalej}
-    \vspace{-3mm}
-    \begin{tabular}{|c|c|c|c|c|}
-    \hline
-      & 左 [mm]         & 中 [mm]         & 右 [mm]         & 長手方向 [mm] \\ \hline
-    長節 & 137.5-81.5 & 151.5-81.5 & 95.5-81.5  & 350  \\ \hline
-    腕節 & 95.5-81.5  & -          & 130.5-60.5 & 140  \\ \hline
-    前節 & 130.5-60.5 & -          & 74.5-32.5  & 245  \\ \hline
-    指節 & 35.5-32.5  & -          & -          & 100  \\ \hline
-    \end{tabular}
-  \end{minipage}
-  %
-  \begin{minipage}{1\hsize}
-    \centering
-    \vspace{3mm}
-    \caption{ベアリングの各寸法}
-    \vspace{-3mm}
-    \label{tab:bearingu}
-    \begin{tabular}{|c|c|c|c|c|}
-    \hline
-          & 外径 [mm] & 内径 [mm]  & 厚み [mm]  & ネジ，ナット \\ \hline
-    長節-腕節間 & 16 & 4   & 6   & M3      \\ \hline
-    腕節-前節間 & 8  & 3   & 4   & M3      \\ \hline
-    前節-指節間 & 6  & 2.5 & 2.6 & M2      \\ \hline
-    \end{tabular}
-  \end{minipage}
-\end{table}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[t]
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \includegraphics[scale=0.2]{image/ken.JPG}
-    \subcaption{腱部品}
-    \label{fig:jken}
-  \end{minipage}
-    %
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \includegraphics[scale=0.3]{image/MPA_tanbu.JPG}
-    \subcaption{MPA端部}
-    \label{fig:jtanbu}
-  \end{minipage}
-    %
-  \begin{minipage}{0.5\hsize}
-    \vspace{3mm}
-    \centering
-    \includegraphics[scale=0.6]{image/syuseki.JPG}
-    \subcaption{羽状筋状に集積した様子}
-    \label{fig:jsyuseki}
-  \end{minipage}
-    %
-    \hspace{-5mm}
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \includegraphics[scale=0.07]{image/mosiki.JPG}
-    \subcaption{模式図}
-    \label{fig:jmosiki}
-  \end{minipage}
-    %
-  \caption{改良した集積方法}
-  \label{fig:syusekijikki}
-\end{figure}
-    %
-\begin{figure}[t]
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \includegraphics[scale=0.09]{image/syusekikotei.png}
-    \caption{外殻との付着方法}
-    \label{fig:syusekikotei}
-  \end{minipage}
-    %
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \includegraphics[scale=0.35]{image/kenkotei.png}
-    \caption{腱の外殻への固定方法}
-    \label{fig:kenkotei}
-  \end{minipage}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{改良したMPAの集積方法}
-ズワイガニを模した機体では予備実験に用いた機体よりも内部のスペースが限られたため，よりコンパクトに羽状配置を構成できるような集積方法を用いる必要があった．
-また，予備実験に用いた集積方法ではMPA一つ一つの長さが異なると羽状配置が崩れるため，本研究で用いる手作業で作製するMPAには不向きな集積方法であった．
-これらの問題を解決するために取り付けと長さの調節が容易な結束バンドの機構に注目し集積部品を作製した．
-図\ref{fig:syusekijikki}\subref{fig:jken}，\subref{fig:jtanbu}のようにMPA端部はTPU素材で結束バンドのシート部にし，腱部分はPLA素材で結束バンドのヘッド部を連結させたような形状にすることで長さの調節が可能かつ強固に固定できる集積方法となっている．
-腱部分のPLA部品の連結には予備実験に用いたプラスチック板よりも剛性に優れている穴の開いたTPU素材のシートを用いることで立体的に集積できるようになっており，シートの端部を細長く伸ばすことで隣の節まで繋げられるようになっている．
 
-図\ref{fig:syusekijikki}\subref{fig:jsyuseki}に実際に集積したMPAを示す．
-また，図\ref{fig:syusekijikki}\subref{fig:jmosiki}に機体に配置した際の動作の模式図を示す．
-本来，羽状筋は立体的に配置されているが機体内部のスペースに限りがあるため上下の2方向から羽状筋を構成した．
-集積したMPAと外殻の付着には容易に着脱可能かつ強固に固定可能な面ファスナーを用いた(図\ref{fig:syusekikotei})．本研究では空気分岐部品の裏面に面ファスナーのフック側，外殻にループ側を取り付けることで着脱できるようになっている．
-腱と外殻の付着にはインサートナットを使用している．
-外殻とは別でインサートナット挿入部品をFDM方式方式の3Dプリンタで作製し，インサートナット挿入後，外殻へ瞬間接着剤(PPX メーカー：セメダイン 品番：CA-522)を用いて固定した．
-その後，インサートナットと外殻の隙間にTPUシートを挿入し，ネジ止めすることで固定可能となっている．
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[tbp]
-  \begin{minipage}{1\hsize}
-    \centering
-    \includegraphics[scale=0.12]{image/move1all.png}
-    \subcaption{長節-腕節間の動作}
-    \label{fig:move1all}
-  \end{minipage}
-  %
-  \begin{minipage}{1\hsize}
-    \centering
-    \includegraphics[scale=0.12]{image/move2all.png}
-    \subcaption{腕節-前節間の動作}
-    \label{fig:move2all}
-  \end{minipage}
-%
-  \caption{動作実験}
-  \label{fig:moveall}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[t]
-    \centering
-    \includegraphics[scale=0.12]{image/kousatu1.png}
-    \caption{角度による動作の変化}
-    \label{fig:kousatu1}
-\end{figure}
-%
-\begin{figure}[t]
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \includegraphics[scale=0.15]{image/kousatu2_1.png}
-    \subcaption{長節-腕節間の駆動範囲}
-    \label{fig:kousatu2_1}
-  \end{minipage}
-  %
-  \begin{minipage}{0.5\hsize}
-    \centering
-    \includegraphics[scale=0.15]{image/kousatu2_2.png}
-    \subcaption{腕節-前節間の駆動範囲}
-    \label{fig:kousatu2_2}
-  \end{minipage}
-  %
-  \caption{駆動範囲}
-  \label{fig:kousatu2}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{動作実験および結果}
-羽状配置に集積したMPAを長節から腕節，腕節から前節間の開筋，閉筋に配置し動作実験を行った．
-関節の動きを確認しやすくするために長節-腕節間は機体を寝かせた状態，腕節-前節間は機体を立てた状態で動作実験を行った．
-また，初期位置は開筋か閉筋のどちらか一方の腱が張った状態の位置とし，空気の印加は手動で行い印加圧力は0.4 MPa，開筋と閉筋の手動弁を交互に開閉させることで動作させた．
-
-長節-腕節間の動作結果を図\ref{fig:moveall}\subref{fig:move1all}，腕節-前節間の動作結果を図\ref{fig:moveall}\subref{fig:move2all} に示す．
-結果より，長節-腕節間では初期位置から動作させたときに最も大きく関節が動き，それ以降の関節の動きは僅かなものであった．
-腕節-前節間では初期動作から関節の動きは小さかったものの開閉動作が確認できた．
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
