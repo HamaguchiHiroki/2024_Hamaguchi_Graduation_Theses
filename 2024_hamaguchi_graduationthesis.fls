@@ -256,22 +256,16 @@ INPUT ./image/ujo.JPG
 INPUT ./image/ujo.JPG
 INPUT ./image/ujo.JPG
 INPUT extractbb -B cropbox -O image/ujo.JPG
-INPUT ./image/degree_jikken.jpg
-INPUT ./image/degree_jikken.jpg
-INPUT ./image/degree_jikken.jpg
-INPUT extractbb -B cropbox -O image/degree_jikken.jpg
+INPUT ./image/degree_jikken.png
+INPUT ./image/degree_jikken.png
+INPUT ./image/degree_jikken.png
+INPUT extractbb -B cropbox -O image/degree_jikken.png
 INPUT ./chapters/sec4.tex
 INPUT ./chapters/sec4.tex
 OUTPUT chapters/sec4.aux
 INPUT ./chapters/sec4.tex
 INPUT ./chapters/sec4.tex
 INPUT chapters/sec4.tex
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm
-INPUT ./image/sakusei.jpg
-INPUT ./image/sakusei.jpg
-INPUT ./image/sakusei.jpg
-INPUT extractbb -B cropbox -O image/sakusei.jpg
 INPUT ./image/MPA_tanbu_1_1.jpg
 INPUT ./image/MPA_tanbu_1_1.jpg
 INPUT ./image/MPA_tanbu_1_1.jpg
@@ -280,14 +274,16 @@ INPUT ./image/MPA_tanbu_1_2.jpg
 INPUT ./image/MPA_tanbu_1_2.jpg
 INPUT ./image/MPA_tanbu_1_2.jpg
 INPUT extractbb -B cropbox -O image/MPA_tanbu_1_2.jpg
-INPUT ./image/MPA_tanbu_2_1.jpg
-INPUT ./image/MPA_tanbu_2_1.jpg
-INPUT ./image/MPA_tanbu_2_1.jpg
-INPUT extractbb -B cropbox -O image/MPA_tanbu_2_1.jpg
 INPUT ./image/MPA_tanbu_2_2.jpg
 INPUT ./image/MPA_tanbu_2_2.jpg
 INPUT ./image/MPA_tanbu_2_2.jpg
 INPUT extractbb -B cropbox -O image/MPA_tanbu_2_2.jpg
+INPUT ./image/MPA_tanbu_2_1.jpg
+INPUT ./image/MPA_tanbu_2_1.jpg
+INPUT ./image/MPA_tanbu_2_1.jpg
+INPUT extractbb -B cropbox -O image/MPA_tanbu_2_1.jpg
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm
 INPUT ./image/messhu_hikaku_1.jpg
 INPUT ./image/messhu_hikaku_1.jpg
 INPUT ./image/messhu_hikaku_1.jpg
@@ -308,6 +304,18 @@ INPUT ./image/messhu_tejyun.jpg
 INPUT ./image/messhu_tejyun.jpg
 INPUT ./image/messhu_tejyun.jpg
 INPUT extractbb -B cropbox -O image/messhu_tejyun.jpg
+INPUT ./image/ujyoukin.jpg
+INPUT ./image/ujyoukin.jpg
+INPUT ./image/ujyoukin.jpg
+INPUT extractbb -B cropbox -O image/ujyoukin.jpg
+INPUT ./image/yobi_syuseki.JPG
+INPUT ./image/yobi_syuseki.JPG
+INPUT ./image/yobi_syuseki.JPG
+INPUT extractbb -B cropbox -O image/yobi_syuseki.JPG
+INPUT ./image/air_moshiki.png
+INPUT ./image/air_moshiki.png
+INPUT ./image/air_moshiki.png
+INPUT extractbb -B cropbox -O image/air_moshiki.png
 INPUT ./chapters/sec5.tex
 INPUT ./chapters/sec5.tex
 OUTPUT chapters/sec5.aux
