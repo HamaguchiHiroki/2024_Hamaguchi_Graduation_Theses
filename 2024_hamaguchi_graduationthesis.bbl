@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{hasegawa}
-中西大輔, 長谷川侑大, 浪花啓右, 杉本靖博博.
-\newblock 細径空圧筋を用いた羽状筋および外骨格生物模倣ロボットの開発.
-\newblock ロボティクス・メカトロニクス講演会講演概要集, Vol. 2024, pp. 2A1--L08, 2024.
-
 \bibitem{2003722}
 則次俊郎.
 \newblock 空気圧ソフトアクチュエータと人間親和メカニズム.
@@ -34,6 +29,11 @@ Xi~Chen, Jiawei Li, Shihao Hu, Songjie Han, Kaixin Liu, Biye Pan, Jixin Wang, Ga
 齋藤昭彦.
 \newblock 骨格筋の構造.
 \newblock 理学療法科学, Vol.~18, No.~1, pp. 49--53, 2003.
+
+\bibitem{hasegawa}
+中西大輔, 長谷川侑大, 浪花啓右, 杉本靖博博.
+\newblock 細径空圧筋を用いた羽状筋および外骨格生物模倣ロボットの開発.
+\newblock ロボティクス・メカトロニクス講演会講演概要集, Vol. 2024, pp. 2A1--L08, 2024.
 
 \bibitem{中西大輔2020}
 中西大輔, 加原竜太, 浪花啓右, 杉本靖博.

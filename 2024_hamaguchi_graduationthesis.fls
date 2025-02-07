@@ -316,12 +316,28 @@ INPUT ./image/air_moshiki.png
 INPUT ./image/air_moshiki.png
 INPUT ./image/air_moshiki.png
 INPUT extractbb -B cropbox -O image/air_moshiki.png
+INPUT ./image/tanbu_parts.jpg
+INPUT ./image/tanbu_parts.jpg
+INPUT ./image/tanbu_parts.jpg
+INPUT extractbb -B cropbox -O image/tanbu_parts.jpg
+INPUT ./image/MPA_irast.jpg
+INPUT ./image/MPA_irast.jpg
+INPUT ./image/MPA_irast.jpg
+INPUT extractbb -B cropbox -O image/MPA_irast.jpg
+INPUT ./image/uyjoukin_new.jpg
+INPUT ./image/uyjoukin_new.jpg
+INPUT ./image/uyjoukin_new.jpg
+INPUT extractbb -B cropbox -O image/uyjoukin_new.jpg
 INPUT ./chapters/sec5.tex
 INPUT ./chapters/sec5.tex
 OUTPUT chapters/sec5.aux
 INPUT ./chapters/sec5.tex
 INPUT ./chapters/sec5.tex
 INPUT chapters/sec5.tex
+INPUT ./image/jikki_2.png
+INPUT ./image/jikki_2.png
+INPUT ./image/jikki_2.png
+INPUT extractbb -B cropbox -O image/jikki_2.png
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux

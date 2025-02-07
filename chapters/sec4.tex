@@ -17,7 +17,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[!hb]
   %
-  \begin{minipage}{0.5\hsize}
+  \begin{minipage}{0.49\hsize}
     \centering  
     \includegraphics[scale=0.5]{image/MPA_tanbu_1_1.jpg}
     \subcaption{旧型細径MPA外観}
@@ -36,14 +36,14 @@
 \end{figure}
 %
 \begin{figure}[!hb]
-  \begin{minipage}{0.5\hsize}
+  \begin{minipage}{0.49\hsize}
     \centering
     \includegraphics[scale=0.5]{image/MPA_tanbu_2_2.jpg}
     \subcaption{新型細径MPA外観}
     \label{fig:MPA_tanbu_2_1}
   \end{minipage}
   %
-  \begin{minipage}{0.5\hsize}
+  \begin{minipage}{0.49\hsize}
     \centering  
     \includegraphics[scale=0.5]{image/MPA_tanbu_2_1.jpg}
     \subcaption{新型細径MPA模式図}
@@ -88,14 +88,14 @@
 %
 \begin{figure}[ht]
   %
-  \begin{minipage}{0.5\hsize}
+  \begin{minipage}{0.49\hsize}
     \centering  
     \includegraphics[scale=0.25]{image/messhu_hikaku_1.jpg}
     \subcaption{変化前}
     \label{fig:messhu_1}
   \end{minipage}
   %
-  \begin{minipage}{0.5\hsize}
+  \begin{minipage}{0.49\hsize}
     \centering
     \includegraphics[scale=0.25]{image/messhu_hikaku_2.jpg}
     \subcaption{変化後}
@@ -108,14 +108,14 @@
 %
 \begin{figure}[ht]
   %
-  \begin{minipage}{0.5\hsize}
+  \begin{minipage}{0.49\hsize}
     \centering  
     \includegraphics[scale=0.4]{image/hikaku_MPA_1.jpg}
     \subcaption{変化前}
     \label{fig:MPA_1}
   \end{minipage}
   %
-  \begin{minipage}{0.5\hsize}
+  \begin{minipage}{0.49\hsize}
     \centering
     \includegraphics[scale=0.4]{image/hikaku_MPA_2.jpg}
     \subcaption{変化後}
@@ -136,11 +136,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \subsection{課題３：羽状角の変化に対する対応}
-
-先行研究で作成された歩脚ロボットに用いられた羽状筋を図\ref{fig:ujyoukin_kako}に示す．
-細径MPAの端部の部品が固定されており，角度が変わらないようなつくりになっている．
-これにより，
-
+細径MPAを用いた羽状筋の動作の模式図を図\ref{fig:ujyoukin_moshiki}に示す．細径MPAが収縮すると，腱は赤い矢印の方向へ引っ張られる．
+そして，細径MPAと腱とのなす角(羽状角)が変化することにより関節が回転する．
+しかし，先行研究で作製された歩脚ロボット(図\ref{fig:ujyoukin_kako})では細径MPA端部の部品の角度が固定されていた．
+それが原因で，細径MPAが収縮する際に端部部品と細径MPAが干渉してしまい腱を十分に引き込むことができなかった．
+そこで本研究では細径MPAの収縮に応じて羽状角が変化する端部部品を開発した．開発した端部部品を図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}に示す．細径MPA端部の作製方法，手順を以下に示す．
+\vspace{3mm}
+\begin{enumerate}
+  \item 図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}中\textcircled{\scriptsize 1}，\textcircled{\scriptsize 2}，\textcircled{\scriptsize 3}をSolidWorksを用いて設計する
+  \item 光造形方式の3Dプリンターで印刷する．
+  \item 図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}中の\textcircled{\scriptsize 3}の赤枠部分を図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}中\textcircled{\scriptsize 1}，\textcircled{\scriptsize 2}で挟み込む
+  \item 図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}中\textcircled{\scriptsize 1}，\textcircled{\scriptsize 2}の隙間が空いていないことを確認したら完成
+\end{enumerate}
+次にこの部品の主な動作について説明する．先ほど説明した部品を組み立てた後(図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}中\textcircled{\scriptsize 3})の模式図を図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_moshikizu}に示す．
+図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_moshikizu}中の赤斜線部の穴に回転軸が左右からはまる構造になっている．
+これにより，端部部品に1自由度を持たせることができた．さらに，細径MPAの収縮に合わせて羽状角が変化することができ，端部部品と細径MPAが干渉しないことが確認することができた．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \begin{figure}[ht]
@@ -152,14 +162,14 @@
 %
 \begin{figure}[ht]
   %
-  \begin{minipage}{0.5\hsize}
+  \begin{minipage}{0.49\hsize}
     \centering  
     \includegraphics[scale=0.6]{image/yobi_syuseki.JPG}
     \subcaption{旧型羽状筋}
     \label{fig:ujyoukin_real_kako}
   \end{minipage}
   %
-  \begin{minipage}{0.5\hsize}
+  \begin{minipage}{0.49\hsize}
     \centering
     \includegraphics[scale=0.04]{image/air_moshiki.png}
     \subcaption{模式図}
@@ -169,9 +179,41 @@
   \caption{先行研究で開発された羽状筋}
   \label{fig:ujyoukin_kako}
 \end{figure}
+%
+\begin{figure}[ht]
+  %
+  \begin{minipage}{0.59\hsize}
+    \centering  
+    \includegraphics[scale=0.27]{image/tanbu_parts.jpg}
+    \subcaption{組み立て方法}
+    \label{fig:tanbu_parts}
+  \end{minipage}
+  %
+  \begin{minipage}{0.39\hsize}
+    \centering
+    \includegraphics[scale=0.085]{image/MPA_irast.jpg}
+    \subcaption{模式図}
+    \label{fig:tanbu_moshikizu}
+  \end{minipage}
+  %
+  \caption{先行研究で開発された羽状筋}
+  \label{fig:tanbu_parts_new}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{改良型細径羽状筋}
-
+本研究で開発した改良型細径空圧羽状筋を図\ref{fig:ujyoukin_new}に示す．前述した先行研究の課題１，２，３の解決方法を取り入れて羽状筋を開発した．
+図\ref{fig:ujyoukin_new}中の腱は柔軟な素材であるTPUを用いてFDM方式3Dプリンターで，細径MPA固定部品は光造形方式の3Dプリンターでそれぞれ作成した．
+外骨格内部に配置可能な最大の長さの改良型細径空圧羽状筋を各節で作製した．その結果，解禁と平均で細径MPAの数が同じでそれぞれ1列ずつの構成となった．
+長節では腱の上下ともに7本ずつ，腕節では腱の上側が5本で下側が4本，前節では腱の上下ともに4本ずつで羽状筋を作製した．
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{figure}[ht]
+  \centering
+  \includegraphics[scale=0.7]{image/uyjoukin_new.jpg}
+  \caption{改良型細径空圧羽状筋}
+  \label{fig:ujyoukin_new}
+\end{figure}
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %本研究で用いる3 mmの細径MPAの作製方法について説明する．
 %構造は2.1節で述べた従来のMPAと同様，シリコンゴムチューブをナイロン繊維メッシュで覆ったシンプルなもので，0.4～0.6 MPaで駆動し収縮率は約20 ％である．
