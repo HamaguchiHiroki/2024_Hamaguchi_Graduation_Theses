@@ -136,21 +136,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \subsection{課題３：羽状角の変化に対する対応}
-細径MPAを用いた羽状筋の動作の模式図を図\ref{fig:ujyoukin_moshiki}に示す．細径MPAが収縮すると，腱は赤い矢印の方向へ引っ張られる．
-そして，細径MPAと腱とのなす角(羽状角)が変化することにより関節が回転する．
-しかし，先行研究で作製された歩脚ロボット(図\ref{fig:ujyoukin_kako})では細径MPA端部の部品の角度が固定されていた．
-それが原因で，細径MPAが収縮する際に端部部品と細径MPAが干渉してしまい腱を十分に引き込むことができなかった．
+細径MPAを用いた羽状筋による腱の引き込みを模式図にしたものを図\ref{fig:ujyoukin_moshiki}に示す．
+細径MPAが収縮することにより，腱が長手方向(赤い矢印の方向)へ引っ張られる．このとき，腱と細径MPAの成す角(羽状角)覇収縮前後で変化するため，細径MPAの腱および外殻への付着店は回転自由度を持つ必要がある．
+しかし，先行研究\cite{hasegawa}で作製された細径MPAを用いた羽状筋では，では細径MPA端部の部品の角度が固定されていた．(図\ref{fig:ujyoukin_kako})
+そのため，細径MPAが収縮した際に細径MPA自身が折れ曲がるように変形してしまい，腱を十分に引くことができず，関節可動域が狭くなる原因の1つとなっていた．
+そこで本研究では細径MPAの端部に回転自由度を持たせる構造を考案した．図\ref{fig:tanbu_parts_new}に構造を示す．
+図\ref{fig:tanbu_parts}\subref{fig:tanbu_parts}に示すように，MPA端部部品(部品\textcircled{\scriptsize 3})の軸部分を両側から挟むように，部品\textcircled{\scriptsize 1}\textcircled{\scriptsize 2}
+を取り付ける部品\textcircled{\scriptsize 1}\textcircled{\scriptsize 2}にはMPA端部部品の軸と直行する向きに穴があけてある．組み立てたものを土台部品にとり付け，部品\textcircled{\scriptsize 1}\textcircled{\scriptsize 2}
+を左右からネジで固定する(図ｃ)．このとき，ネジの先端が部品\textcircled{\scriptsize 1}\textcircled{\scriptsize 2}の穴部にはまることで，このネジが回転軸となり再帰依MPA端部が自由度を持つことができる．
+また細径MPAの外殻側は圧縮空気を供給するために中空状になっており，そこへ$\phi$ 3mmのポリウレタンチューブを挿入したて接着剤で固定する．また土台部品も圧縮空気を供給するための流路が内部に設けてあり，
+ポリウレタンチューブの他方そちらに挿入して接着剤で固定する．図19に実際に細径MPAを土台に組付けた様子を示す．
 そこで本研究では細径MPAの収縮に応じて羽状角が変化する端部部品を開発した．開発した端部部品を図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}に示す．細径MPA端部の作製方法，手順を以下に示す．
-\vspace{3mm}
-\begin{enumerate}
-  \item 図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}中\textcircled{\scriptsize 1}，\textcircled{\scriptsize 2}，\textcircled{\scriptsize 3}をSolidWorksを用いて設計する
-  \item 光造形方式の3Dプリンターで印刷する．
-  \item 図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}中の\textcircled{\scriptsize 3}の赤枠部分を図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}中\textcircled{\scriptsize 1}，\textcircled{\scriptsize 2}で挟み込む
-  \item 図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}中\textcircled{\scriptsize 1}，\textcircled{\scriptsize 2}の隙間が空いていないことを確認したら完成
-\end{enumerate}
-次にこの部品の主な動作について説明する．先ほど説明した部品を組み立てた後(図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_parts}中\textcircled{\scriptsize 3})の模式図を図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_moshikizu}に示す．
-図\ref{fig:tanbu_parts_new}\subref{fig:tanbu_moshikizu}中の赤斜線部の穴に回転軸が左右からはまる構造になっている．
-これにより，端部部品に1自由度を持たせることができた．さらに，細径MPAの収縮に合わせて羽状角が変化することができ，端部部品と細径MPAが干渉しないことが確認することができた．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \begin{figure}[ht]
@@ -206,6 +202,12 @@
 外骨格内部に配置可能な最大の長さの改良型細径空圧羽状筋を各節で作製した．その結果，解禁と平均で細径MPAの数が同じでそれぞれ1列ずつの構成となった．
 長節では腱の上下ともに7本ずつ，腕節では腱の上側が5本で下側が4本，前節では腱の上下ともに4本ずつで羽状筋を作製した．
 また，3章2節で述べた数理モデルのを用いた可動域の計算と作製の容易さから，細径MPAの長さは全て同じになるように作製した．
+前述した先行研究の課題1，2，3の解決方法を取り入れて開発した改良型細径空圧羽状筋を図\ref{fig:ujyoukin_new}に示す．
+\ref{fig:ujyoukin_new}中の腱は柔軟な素材であるTPUを用いてFDM方式3Dプリンターで，外殻部分はPLAを用いてFDM方式の3Dプリンターで，細径MPA固定部品覇光造形方式の3Dプリンターでそれぞれ作成した．
+3.2で述べたように，羽状角を 20度かつすべての細径MPAの長さは等しいという条件のもと，可能な限り外骨格内部に細径MPAを配置した．
+また外殻の幅の制約から，すべての節で屈筋伸筋は一列ずつとした．長節においては屈筋伸筋ともに上下に7本ずつ，7対14筋能状筋とした．
+同様に前節は4対8筋とした．腕節では屈筋伸筋ともに腱の上側が5本，下側が4本の非対称な羽状筋とした．
+これは可能な限り空間内に多数の細径MPAを配置し，腱を引き込む力を大きくするためである．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \begin{figure}[ht]
