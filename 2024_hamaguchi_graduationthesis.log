@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2025.2.5)  8 FEB 2025 16:24
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2025.2.5)  8 FEB 2025 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -424,7 +424,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 ]
 File: image/degree_jikken.png Graphic file (type bmp)
 <image/degree_jikken.png>
-)
+
 
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
@@ -434,7 +434,14 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [7]
+ [7])
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [8
+
+]
 \openout2 = `chapters/sec4.aux'.
 
  (./chapters/sec4.tex
@@ -451,7 +458,7 @@ File: image/MPA_tanbu_2_1.jpg Graphic file (type bmp)
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [8
+ [9
 
 
 
@@ -471,12 +478,12 @@ File: image/messhu_tejyun.jpg Graphic file (type bmp)
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [9]
+ [10]
 
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [10]
+ [11]
 File: image/ujyoukin.jpg Graphic file (type bmp)
 <image/ujyoukin.jpg>
 File: image/yobi_syuseki.JPG Graphic file (type bmp)
@@ -494,19 +501,19 @@ File: image/uyjoukin_new.jpg Graphic file (type bmp)
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [11
+ [12
 
 ])
 
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [12]
+ [13]
 
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [13]
+ [14]
 \openout2 = `chapters/sec5.aux'.
 
  (./chapters/sec5.tex
@@ -517,7 +524,7 @@ File: image/jikki_2.png Graphic file (type bmp)
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [14
+ [15
 
 
 
@@ -529,7 +536,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [15
+ [16
 
 
 
@@ -541,7 +548,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [16
+ [17
 
 
 
@@ -558,7 +565,7 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [17
+ [18
 
 
 
@@ -572,10 +579,10 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  6086 strings out of 475318
  105580 string characters out of 5768461
- 499800 words of memory out of 5000000
+ 499805 words of memory out of 5000000
  29033 multiletter control sequences out of 15000+600000
  574021 words of font info for 94 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  67i,14n,79p,461b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 2024_hamaguchi_graduationthesis.dvi (21 pages, 62324 bytes).
+Output written on 2024_hamaguchi_graduationthesis.dvi (22 pages, 63492 bytes).
