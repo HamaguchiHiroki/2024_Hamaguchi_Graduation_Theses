@@ -21,7 +21,7 @@
 羽状筋には2つの利点があるとされている．1つ目は収縮しても膨張せず，羽状筋の角度が大きくなるだけなので限られた狭い空間で働くのに適していること，
 2つ目は同じ形状と体積の平行筋と比べ収縮時に約2倍の力を発揮することが出来ることである\cite{warner1977biology}．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[b]
+\begin{figure}[hb]
   \begin{minipage}{0.49\hsize}
     \vspace{10mm}
     \centering
@@ -39,10 +39,10 @@
   \end{minipage}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[t]
+\begin{figure}[ht]
   \begin{minipage}[b]{0.39\hsize}
     \centering
-    \includegraphics[scale=0.1]{image/setukanmaku.jpg}
+    \includegraphics[scale=0.08]{image/setukanmaku.jpg}
     \caption{腱の様子\cite{hasegawa}}
     \label{fig:ken}
   \end{minipage}
@@ -55,42 +55,27 @@
   \end{minipage}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[scale=0.045]{image/degree_jikken.png}
+  \caption{可動域の測定の様子}
+  \label{fig:sokutei}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{関節構造，および可動域について}
 先行研究\cite{hasegawa}では実際の蟹の可動域を解剖を行い測定した．解剖には甲殻類の十脚目短尾下目ケセンガニ科のズワイガニを用いた．
 測定している様子を図\ref{fig:sokutei}に示す．測定方法は，可動域を測定したい関節の軸を分度器の中心に合わせる．その時に関節の身体側の節の中心を 180°の線に合うように配置する．
 そして蟹の脚で開閉動作を行い，脚先側の節の中心が閉じた状態と開いた状態での角度をそれぞれ測定してそれらを可動域とした．
 なお，本研究では図\ref{fig:zuwai}中の4と書かれている下から4番目の節(第4肢)の可動域のデータを用いて機体を作製する．
-第4肢の可動域を上に示す．
+第4肢の可動域を表\ref{tab:4setukadou}に示す．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{各部寸法について}
 本研究で作製する歩脚ロボットは先行研究\cite{hasegawa}で行われた蟹の解剖の際に測定された寸法をもとに設計した．
-測定された寸法を表\ref{tab:4setukadou}に示す．
+測定された寸法を表\ref{tab:4setu}に示す．
 なお，歩脚ロボットは外骨格内部へアクチュエータの配置が困難なことから長節，前節，指節では実測値に対して直径方向に7倍，直径方向には3.5倍，腕節は他の節より長手方向のみ5.2倍にした．
 長手方向の具体的な寸法としては，長節が 350mm，腕節が 256mm，前節が 245mm，指節が 100mmである
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table}[h]
-  \centering
-  \caption{第4肢の長節から指節の寸法}
-  \label{tab:4setu}
-  \vspace{-3mm}
-  \begin{tabular}{|l|c|c|c|c|c|}
-  \hline
-     & \multicolumn{1}{l|}{幅-左 [mm]} & \multicolumn{1}{l|}{幅-中 [mm]} & \multicolumn{1}{l|}{幅-右 [mm]} & \multicolumn{1}{l|}{厚み [mm]} & \multicolumn{1}{l|}{長さ [mm]} \\ \hline
-  長節 & 19.10                       & 21.74                       & 13.11                       & 11.05                       & 100.0                       \\ \hline
-  腕節 & 10.57                       & -                           & 18.42                       & 8.74                        & 40.5                        \\ \hline
-  前節 & 16.48                       & -                           & 10.40                       & 4.68                        & 70.0                        \\ \hline
-  指節 & -                           & 5.60                        & -                           & 3.69                        & 30.0                        \\ \hline
-  \end{tabular}
-\end{table}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
-  \centering
-  \includegraphics[scale=0.05]{image/degree_jikken.png}
-  \caption{可動域の測定の様子}
-  \label{fig:sokutei}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\begin{table}[!t]
+\begin{table}[ht]
   \centering
   \vspace{5mm}
   \caption{第4肢の節間の可動域}
@@ -105,10 +90,44 @@
   \end{tabular}
 \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\clearpage
+\begin{table}[ht]
+  \centering
+  \caption{第4肢の長節から指節の寸法}
+  \label{tab:4setu}
+  \vspace{-3mm}
+  \begin{tabular}{|l|c|c|c|c|c|}
+  \hline
+     & \multicolumn{1}{l|}{幅-左 [mm]} & \multicolumn{1}{l|}{幅-中 [mm]} & \multicolumn{1}{l|}{幅-右 [mm]} & \multicolumn{1}{l|}{厚み [mm]} & \multicolumn{1}{l|}{長さ [mm]} \\ \hline
+  長節 & 19.10                       & 21.74                       & 13.11                       & 11.05                       & 100.0                       \\ \hline
+  腕節 & 10.57                       & -                           & 18.42                       & 8.74                        & 40.5                        \\ \hline
+  前節 & 16.48                       & -                           & 10.40                       & 4.68                        & 70.0                        \\ \hline
+  指節 & -                           & 5.60                        & -                           & 3.69                        & 30.0                        \\ \hline
+  \end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{羽状筋および関節構造のモデル化および可動域の計算}
 \subsubsection{羽状筋および関節構造のモデル化}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[ht]
+  %
+  \begin{minipage}{0.49\hsize}
+    \centering  
+    \includegraphics[scale=0.23]{image/model_1.jpg}
+    \subcaption{圧縮空気印加前}
+    \label{fig:model_1_before}
+  \end{minipage}
+  %
+  \begin{minipage}{0.49\hsize}
+    \centering
+    \includegraphics[scale=0.23]{image/model_2.jpg}
+    \subcaption{圧縮空気印加後}
+    \label{fig:model_1_after}
+  \end{minipage}
+  %
+  \caption{可動域計算に用いた数理モデル(長節-腕節)}
+  \label{fig:model_1}
+\end{figure}
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{可動域の計算}
 
