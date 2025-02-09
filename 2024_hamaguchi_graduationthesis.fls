@@ -260,6 +260,14 @@ INPUT ./image/model_2.jpg
 INPUT ./image/model_2.jpg
 INPUT ./image/model_2.jpg
 INPUT extractbb -B cropbox -O image/model_2.jpg
+INPUT ./image/model_2_open.jpg
+INPUT ./image/model_2_open.jpg
+INPUT ./image/model_2_open.jpg
+INPUT extractbb -B cropbox -O image/model_2_open.jpg
+INPUT ./image/model_2_close.jpg
+INPUT ./image/model_2_close.jpg
+INPUT ./image/model_2_close.jpg
+INPUT extractbb -B cropbox -O image/model_2_close.jpg
 INPUT ./chapters/sec4.tex
 INPUT ./chapters/sec4.tex
 OUTPUT chapters/sec4.aux

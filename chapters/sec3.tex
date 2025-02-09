@@ -107,6 +107,28 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{羽状筋および関節構造のモデル化および可動域の計算}
 \subsubsection{羽状筋および関節構造のモデル化}
+本研究では，作製する歩脚ロボットの可動域を求めるために数理モデルを用いて計算を行った．
+本研究で用いた数理モデルを図\ref{fig:model_1}に示す．数理モデルに用いた変数の説明する．
+図\ref{fig:model_1}\subref{fig:model_1_before}の変数について説明する．
+$\theta_f $は関節から腱への垂線と，腱の付着点から関節への直線とのなす角．
+$\phi $は関節から腱への垂線と，関節から関節側にある細径MPAの交点への直線とのなす角．
+$r_e $は関節から腱の付着点までの長さ．
+$d_0 $は関節から腱への垂線の長さ．
+$LT_e $は腱付着点から関節側にある細径MPAの交点までの長さ．
+$Se_1 $は関節から腱への垂線と腱との交点から関節側にある細径MPAの交点までの長さ．
+図\ref{fig:model_1}\subref{fig:model_1_after}の変数について説明する．
+$\theta_e $は関節から腱への垂線と，腱の付着点から関節への直線とのなす角．
+$\psi $は関節側の細径MPAの交点から腱の付着点の直線と水平な直線とのなす角．
+$Se_2 $はは関節から腱への垂線と腱との交点から関節側にある細径MPAの交点までの長さ．
+$d_0$ $r_e$ $LT_e$は図\ref{fig:model_1}\subref{fig:model_1_before}と同じものを表す．
+図\ref{fig:model_2}\subref{fig:model_2_before}の変数について説明する．
+$l_1 $は細径MPA動作前の細径MPAの長さ．
+$\theta _1 $は細径MPA動作後の腱と細径MAPのなす角．
+図\ref{fig:model_2}\subref{fig:model_2_after}の変数について説明する．
+$l_2 $は細径MPA動作後の細径MPAの長さ．
+$\theta_2 $は細径MPA動作後の腱と細径MPAのなす角．
+これらの関数を用いて設計上の歩脚ロボットで必要な腱の水平方向のストロークと，収縮率 20％の細径MPAで出力可能な腱の水平方向のストロークをそれぞれ求めた．
+なお
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[ht]
   %
@@ -124,10 +146,29 @@
     \label{fig:model_1_after}
   \end{minipage}
   %
-  \caption{可動域計算に用いた数理モデル(長節-腕節)}
+  \caption{可動域計算に用いた数理モデル(必要ストローク)}
   \label{fig:model_1}
 \end{figure}
 %
+\begin{figure}[ht]
+  %
+  \begin{minipage}{0.49\hsize}
+    \centering  
+    \includegraphics[scale=0.23]{image/model_2_open.jpg}
+    \subcaption{圧縮空気印加前}
+    \label{fig:model_2_before}
+  \end{minipage}
+  %
+  \begin{minipage}{0.49\hsize}
+    \centering
+    \includegraphics[scale=0.23]{image/model_2_close.jpg}
+    \subcaption{圧縮空気印加後}
+    \label{fig:model_2_after}
+  \end{minipage}
+  %
+  \caption{可動域計算に用いた数理モデル(可能ストローク)}
+  \label{fig:model_2}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{可動域の計算}
 
