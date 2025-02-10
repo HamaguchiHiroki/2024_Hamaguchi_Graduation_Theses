@@ -260,6 +260,22 @@ INPUT ./image/degree_jikken.png
 INPUT ./image/degree_jikken.png
 INPUT ./image/degree_jikken.png
 INPUT extractbb -B cropbox -O image/degree_jikken.png
+INPUT ./image/model_1.jpg
+INPUT ./image/model_1.jpg
+INPUT ./image/model_1.jpg
+INPUT extractbb -B cropbox -O image/model_1.jpg
+INPUT ./image/model_2.jpg
+INPUT ./image/model_2.jpg
+INPUT ./image/model_2.jpg
+INPUT extractbb -B cropbox -O image/model_2.jpg
+INPUT ./image/model_2_open.jpg
+INPUT ./image/model_2_open.jpg
+INPUT ./image/model_2_open.jpg
+INPUT extractbb -B cropbox -O image/model_2_open.jpg
+INPUT ./image/model_2_close.jpg
+INPUT ./image/model_2_close.jpg
+INPUT ./image/model_2_close.jpg
+INPUT extractbb -B cropbox -O image/model_2_close.jpg
 INPUT ./chapters/sec4.tex
 INPUT ./chapters/sec4.tex
 OUTPUT chapters/sec4.aux
@@ -282,6 +298,10 @@ INPUT ./image/MPA_tanbu_2_1.jpg
 INPUT ./image/MPA_tanbu_2_1.jpg
 INPUT ./image/MPA_tanbu_2_1.jpg
 INPUT extractbb -B cropbox -O image/MPA_tanbu_2_1.jpg
+INPUT ./image/tanbubuhin.png
+INPUT ./image/tanbubuhin.png
+INPUT ./image/tanbubuhin.png
+INPUT extractbb -B cropbox -O image/tanbubuhin.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm
 INPUT ./image/messhu_hikaku_1.jpg
@@ -308,10 +328,10 @@ INPUT ./image/ujyoukin.jpg
 INPUT ./image/ujyoukin.jpg
 INPUT ./image/ujyoukin.jpg
 INPUT extractbb -B cropbox -O image/ujyoukin.jpg
-INPUT ./image/yobi_syuseki.JPG
-INPUT ./image/yobi_syuseki.JPG
-INPUT ./image/yobi_syuseki.JPG
-INPUT extractbb -B cropbox -O image/yobi_syuseki.JPG
+INPUT ./image/syuseki_1.JPG
+INPUT ./image/syuseki_1.JPG
+INPUT ./image/syuseki_1.JPG
+INPUT extractbb -B cropbox -O image/syuseki_1.JPG
 INPUT ./image/air_moshiki.png
 INPUT ./image/air_moshiki.png
 INPUT ./image/air_moshiki.png
@@ -324,6 +344,14 @@ INPUT ./image/MPA_irast.jpg
 INPUT ./image/MPA_irast.jpg
 INPUT ./image/MPA_irast.jpg
 INPUT extractbb -B cropbox -O image/MPA_irast.jpg
+INPUT ./image/asenburi_tanbu.png
+INPUT ./image/asenburi_tanbu.png
+INPUT ./image/asenburi_tanbu.png
+INPUT extractbb -B cropbox -O image/asenburi_tanbu.png
+INPUT ./image/real_tanbu.jpg
+INPUT ./image/real_tanbu.jpg
+INPUT ./image/real_tanbu.jpg
+INPUT extractbb -B cropbox -O image/real_tanbu.jpg
 INPUT ./image/uyjoukin_new.jpg
 INPUT ./image/uyjoukin_new.jpg
 INPUT ./image/uyjoukin_new.jpg
@@ -338,6 +366,18 @@ INPUT ./image/jikki_2.png
 INPUT ./image/jikki_2.png
 INPUT ./image/jikki_2.png
 INPUT extractbb -B cropbox -O image/jikki_2.png
+INPUT ./image/chousetu-wansetu_edited.png
+INPUT ./image/chousetu-wansetu_edited.png
+INPUT ./image/chousetu-wansetu_edited.png
+INPUT extractbb -B cropbox -O image/chousetu-wansetu_edited.png
+INPUT ./image/wansetu-zensetu_edited.png
+INPUT ./image/wansetu-zensetu_edited.png
+INPUT ./image/wansetu-zensetu_edited.png
+INPUT extractbb -B cropbox -O image/wansetu-zensetu_edited.png
+INPUT ./image/zensetu-sisetu_edited.png
+INPUT ./image/zensetu-sisetu_edited.png
+INPUT ./image/zensetu-sisetu_edited.png
+INPUT extractbb -B cropbox -O image/zensetu-sisetu_edited.png
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux
