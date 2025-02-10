@@ -356,6 +356,18 @@ INPUT ./image/uyjoukin_new.jpg
 INPUT ./image/uyjoukin_new.jpg
 INPUT ./image/uyjoukin_new.jpg
 INPUT extractbb -B cropbox -O image/uyjoukin_new.jpg
+INPUT ./image/chousetu_MPA.jpg
+INPUT ./image/chousetu_MPA.jpg
+INPUT ./image/chousetu_MPA.jpg
+INPUT extractbb -B cropbox -O image/chousetu_MPA.jpg
+INPUT ./image/wansetu_MPA.jpg
+INPUT ./image/wansetu_MPA.jpg
+INPUT ./image/wansetu_MPA.jpg
+INPUT extractbb -B cropbox -O image/wansetu_MPA.jpg
+INPUT ./image/zensetu_MPA.jpg
+INPUT ./image/zensetu_MPA.jpg
+INPUT ./image/zensetu_MPA.jpg
+INPUT extractbb -B cropbox -O image/zensetu_MPA.jpg
 INPUT ./chapters/sec5.tex
 INPUT ./chapters/sec5.tex
 OUTPUT chapters/sec5.aux
@@ -366,6 +378,10 @@ INPUT ./image/jikki_2.png
 INPUT ./image/jikki_2.png
 INPUT ./image/jikki_2.png
 INPUT extractbb -B cropbox -O image/jikki_2.png
+INPUT ./image/marker.jpg
+INPUT ./image/marker.jpg
+INPUT ./image/marker.jpg
+INPUT extractbb -B cropbox -O image/marker.jpg
 INPUT ./image/chousetu-wansetu_edited.png
 INPUT ./image/chousetu-wansetu_edited.png
 INPUT ./image/chousetu-wansetu_edited.png
@@ -378,6 +394,22 @@ INPUT ./image/zensetu-sisetu_edited.png
 INPUT ./image/zensetu-sisetu_edited.png
 INPUT ./image/zensetu-sisetu_edited.png
 INPUT extractbb -B cropbox -O image/zensetu-sisetu_edited.png
+INPUT ./image/kadouiki_graph.jpg
+INPUT ./image/kadouiki_graph.jpg
+INPUT ./image/kadouiki_graph.jpg
+INPUT extractbb -B cropbox -O image/kadouiki_graph.jpg
+INPUT ./image/kenkotei.jpg
+INPUT ./image/kenkotei.jpg
+INPUT ./image/kenkotei.jpg
+INPUT extractbb -B cropbox -O image/kenkotei.jpg
+INPUT ./image/moshiki_edited.png
+INPUT ./image/moshiki_edited.png
+INPUT ./image/moshiki_edited.png
+INPUT extractbb -B cropbox -O image/moshiki_edited.png
+INPUT ./image/model_jikki_defference.png
+INPUT ./image/model_jikki_defference.png
+INPUT ./image/model_jikki_defference.png
+INPUT extractbb -B cropbox -O image/model_jikki_defference.png
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux
