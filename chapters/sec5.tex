@@ -2,19 +2,19 @@
 \section{動作実験}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{改良型細径羽状筋を備えたロボット}
-3章2節と4章で述べた外骨格と羽状筋の設計方法と作製方法より開発した歩脚ロボットを図\ref{fig:kanirobot_new}に示す．
+3.2と4.1，4.2，4.3，4.4で述べた外骨格と羽状筋の設計方法と作製方法より開発した歩脚ロボットを図\ref{fig:kanirobot_new}に示す．
 歩脚ロボットは長節，腕節，腕節，指節の4つの節で構成されている．
 各節の内部には本研究で開発した改良型細径空圧羽状筋を備えている．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{動作実験}
-本研究で開発した歩脚ロボットの改良型細径空圧羽状筋に圧縮空気を印加して，各関節の可動域を調べた．
+本研究で開発した歩脚ロボットの改良型細径空圧羽状筋に圧縮空気を印加して，各関節の開閉動作および可動域を調べた．
 関節の動きを確認しやすくするために長節-腕節間と前節-指節間は機体を寝かせた状態，腕節-前節間は機体を立てた状態で動作実験を行った．
 また，初期位置は開筋か閉筋のどちらか一方が張った状態の位置にし，圧縮空気の印加は手動で行い印加圧力は 0.6MPa，開筋と閉筋の手動弁を交互に開閉することで動作させた．
 ここで開筋は関節を開く方向に，閉筋は閉じる方向に作用する羽状筋を指す．
 
 設計上の可動域と機体の可動域の比較を行うために，図\ref{fig:marker_jikki}のように各関節の軸となる部分にFDM方式の3Dプリンターで作製したマーカーを配置した．
 マーカーをつけた状態で動作実験の様子を録画した．
-その動画をトラッキングソフトの(kinovia)に読み込ませ，マーカーの1フレームごとの座標情報をxcelのファイル形式で取得した．
+その動画をトラッキングソフトの(kinovia)に読み込ませ，マーカーの1フレームごとの座標情報をxcelファイル形式で取得した．
 そのxcelファイルの座標データをMATLABで読み込み，関節のマーカーから節端部のマーカーのベクトルと関節からもう一方の節端部のマーカーのベクトルを求めた．
 その後，MATLABで先ほど求めたベクトルで内積を計算して脚の可動域を計算した．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -34,18 +34,19 @@
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{実験結果}
-長節-腕節の動作実験を図\ref{fig:dousajikken}\subref{fig:move_1}，腕節-前節の動作実験を\ref{fig:dousajikken}\subref{fig:move_2}，
+長節-腕節の動作実験を図\ref{fig:dousajikken}\subref{fig:move_1}，腕節-前節の動作実験を図\ref{fig:dousajikken}\subref{fig:move_2}，
 前節-指節の動作実験を図\ref{fig:dousajikken}\subref{fig:move_3}に示す．
 動作実験より，長節-腕節間では初期状態(図\ref{fig:dousajikken}\subref{fig:move_1}左)と最終状態(図\ref{fig:dousajikken}\subref{fig:move_1}右)では歩脚の角度が近い状態となった．
 腕節-前節間，前節-指節間では長節-腕節間と同じような動作が見られたが，可動域が狭く感じられた．
 
-また，可動域の計算結果を図\ref{fig:kadouiki_graph}，表\ref{tab:kadouiki}に示す．
+
+実験の結果から可動域を算出したものを図\ref{fig:kadouiki_graph}，表\ref{tab:kadouiki}に示す．
 その結果，全ての関節において多少の誤差はあるものの，概ね設計通りの可動域が実現されていることが確認できた．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[!ht]
     \begin{minipage}{1\hsize}
       \centering
-      \includegraphics[scale=0.4]{image/chousetu-wansetu_edited.png}
+      \includegraphics[scale=0.45]{image/chousetu-wansetu_edited.png}
       \vspace{-1mm}
       \subcaption{長節-腕節間の動作の様子}
       \label{fig:move_1}
@@ -54,7 +55,7 @@
     \begin{minipage}{1\hsize}
       \centering
       \vspace{3mm}
-      \includegraphics[scale=0.4]{image/wansetu-zensetu_edited.png}
+      \includegraphics[scale=0.45]{image/wansetu-zensetu_edited.png}
       \subcaption{腕節-前節の動作の様子}
       \label{fig:move_2}
     \end{minipage}
@@ -62,7 +63,7 @@
     \begin{minipage}{1\hsize}
       \centering
       \vspace{3mm}
-      \includegraphics[scale=0.4]{image/zensetu-sisetu_edited.png}
+      \includegraphics[scale=0.45]{image/zensetu-sisetu_edited.png}
       \subcaption{前節-指節の動作の様子}
       \label{fig:move_3}
     \end{minipage}
@@ -75,7 +76,7 @@
     \vspace{-2mm}
     \caption{実際の蟹と実機の可動域比較}
     \vspace{1mm}
-    \scalebox{0.8}{ 
+    \scalebox{1.3}{ 
         \begin{tabular}{|c|c|c|c|}
             \hline
             項目/可動域[deg] & 長節-腕節間 & 腕節-前節間 & 前節-指節間 \\ \hline

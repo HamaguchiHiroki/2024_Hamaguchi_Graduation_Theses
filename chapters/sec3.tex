@@ -1,14 +1,14 @@
 \newpage
 \section{モデル生物の構造およびロボット外殻の設計}
-本研究ではモデル生物としてズワイガニを採用した．本章では先行延久\cite{hasegawa}にて行われた解剖にて得られた各部の寸法，
+本研究ではモデル生物としてズワイガニを採用した．本章では先行研究\cite{hasegawa}にて行われた解剖にて得られた各部の寸法，
 関節可動域，および関節構造に関する知見について述べる．
 さらにカニの羽状筋および関節構造を数理モデルとして表現し，実際のズワイガニの可動域を再現できるようなロボットの設計について検討する．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{解剖によって得られた知見について}
-\subsection{モデル生物(ズワイガニ)について}
+\subsubsection{モデル生物(ズワイガニ)について}
 本研究では外骨格を有するモデル生物として甲殻類の十脚目短尾下目ケセンガニ科のズワイガニを用いた．
 理由として蟹の中でも入手しやすく，モデルサイズも大きく解剖時に内部構造等の確認や測定が比較的容易なためである．
-図に先行研究にて果房に用いたズワイガニを示す．解剖に用いたズワイガニは食用に冷凍されたものであり，解剖によって得られた可動域などが，
+図\ref{fig:zuwai}に先行研究にて解剖に用いたズワイガニを示す．解剖に用いたズワイガニは食用に冷凍されたものであり，解剖によって得られた可動域などが，
 カニが能動的に動く際のものとは異なる可能性があるが，今回は考慮しないものとする．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{外骨格および羽状筋について}
@@ -27,7 +27,7 @@
 このような羽状筋の動作には2つの利点があるとされている．1つ目は収縮しても膨張せず，羽状筋の角度が大きくなるだけなので限られた狭い空間で働くのに適していること，
 2つ目は同じ形状と体積の平行筋と比べ収縮時に約2倍の力を発揮することが出来ることである\cite{warner1977biology}．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[hb]
+\begin{figure}[ht]
   \begin{minipage}{0.49\hsize}
     \vspace{10mm}
     \centering
@@ -80,7 +80,7 @@
 長節，前節，指節では実測値に対して直径方向に7倍，直径方向には3.5倍，腕節は他の節より長手方向のみ5.2倍にした．
 長手方向の具体的な寸法としては，長節が 350mm，腕節が 256mm，前節が 245mm，指節が 100mmである．
 また先行研究\cite{hasegawa}でズワイガニを解剖した際に記録した長節-腕節間の腱の様子を図\ref{fig:ken}に示す．
-解剖結果よりズワイガニの腱は節間膜と一体になるように　ことが分かった\cite{hasegawa}．
+解剖結果よりズワイガニの腱は節間膜と一体となっていることが分かった\cite{hasegawa}．
 このような構造は関節内部への侵入を防ぐなど，外骨格として重要な役割をになっている可能性がある．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{table}[ht]
@@ -116,40 +116,19 @@
 \subsection{羽状筋および関節構造のモデル化および可動域の計算}
 \subsubsection{羽状筋および関節構造のモデル化}
 作製する歩脚ロボットの可動域を設計するために，カニの関節構造を数理モデル化し，計算を行った．数理モデルを図\ref{fig:model_1}に示す．
-また変数について表　に示す．モデルは伸筋による関節の開閉を表しており，図\ref{fig:model_1}\subref{fig:model_1_before}が関節が最も閉じて筋が引き延ばされた状態，
+モデルは伸筋による関節の開閉を表しており，図\ref{fig:model_1}\subref{fig:model_1_before}が関節が最も閉じて筋が引き延ばされた状態，
 図\ref{fig:model_1}\subref{fig:model_1_after}が筋肉が収縮し関節が最も閉じている状態である．
 図\ref{fig:model_1}，\ref{fig:model_2}中に用いた変数について表\ref{tab:hensu}に示す．
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table}[ht]
-  \centering
-  \vspace{5mm}
-  \caption{可動域の計算に用いた変数}
-  \label{tab:hensu}
-  \vspace{-3mm}
-  \begin{tabular}{|l|c|}
-  \hline
-  $\theta_f $ & 関節から腱への垂線と，腱の付着点から関節への直線とのなす角                            \\ \hline
-  $ \phi    $ & 関節から腱への垂線と，関節から関節側にある細径MPAの交点への直線とのなす角              \\ \hline
-  $  re     $ & 関節から腱の付着点までの長さ                                                       \\ \hline
-  $ d_0     $ & 関節から腱への垂線の長さ                                                           \\ \hline
-  $ LTe     $ & 腱付着点から関節側にある細径MPAの交点までの長さ                                      \\ \hline
-  $ Se_1    $ & 関節から腱への垂線と腱との交点から関節側にある細径MPAの交点までの長さ                  \\ \hline
-  $\theta_e $ & 関節から腱への垂線と，腱の付着点から関節への直線とのなす角                            \\ \hline
-  $ \psi    $ & 関節側の細径MPAの交点から腱の付着点の直線と水平な直線とのなす角                        \\ \hline
-  $ Se2     $ & 関節から腱への垂線と腱との交点から関節側にある細径MPAの交点までの長さ                  \\ \hline
-  $ l_1     $ & 細径MPA動作前の細径MPAの長さ                                                       \\ \hline
-  $\theta_1 $ & 細径MPA動作前の羽状角の大きさ                                                      \\ \hline
-  $ l_2     $ & 細径MPA動作後の細径MPAの長さ                                                       \\ \hline
-  $\theta_2 $ & 細径MPA動作後の羽状角の大きさ                                                      \\ \hline
-  $d        $ & 腱から外骨格までの垂直距離                                                         \\ \hline
-  \end{tabular}
-\end{table}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
 可動域導出の手順について述べる．
-まず図\ref{fig:model_1}\subref{fig:model_1_before}から，伸び縮みしない$LT_e$を求める．
-腱付着点から腱の延長線に向かって垂線を引く．赤い点を頂点とする三角形において三平方の定理を用いて$LT_e$を求める．
+まず図\ref{fig:model_1}\subref{fig:model_1_before}から，伸び縮みしない腱の長さ$L_Te$を求める．
+腱付着点から腱の延長線に向かって垂線を引く．赤い点を頂点とする三角形において三平方の定理を用いて$L_Te$を求める．
 \begin{equation}
-  LT_e = \sqrt{r_e^2 + (d_0^2 + Se_1^2) - 2re\sqrt{d_0^2 + Se_1^2}\cos (\theta_f + \phi ) } 
+  L_Te = \sqrt{r_e^2 + (d_0^2 + Se_1^2) - 2re\sqrt{d_0^2 + Se_1^2}\cos (\theta_f + \phi ) } 
 \end{equation}
 続いて図\ref{fig:model_1}\subref{fig:model_1_after}から，$Se_2$を求める．
 青い点を頂点とする三角形の辺ABと赤い点を頂点とする三角形の辺CDを足し合わせて$Se_2$を求める．
@@ -171,6 +150,8 @@
        & = l_1\cos20° + 0.8l_1\cos\theta_2
   \end{split}
 \end{equation}
+表\ref{tab:parameta_1_1}，\ref{tab:parameta_1_2}，\ref{tab:parameta_2_1}，\ref{tab:parameta_2_2}，\ref{tab:parameta_3_1}，\ref{tab:parameta_3_2}に長節から指節までの各関節のパラメータを示す．
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[ht]
   %
@@ -212,10 +193,203 @@
   \label{fig:model_2}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-
-
-
+\begin{table}[htbp]
+  \centering
+  \vspace{5mm}
+  \caption{可動域の計算に用いた変数}
+  \label{tab:hensu}
+  \vspace{-3mm}
+  \begin{tabular}{|l|c|}
+  \hline
+  $\theta_f[deg] $ & 関節から腱への垂線と，腱の付着点から関節への直線とのなす角                            \\ \hline
+  $ \phi[deg]    $ & 
+  \begin{tabular}{c}
+  関節から腱への垂線と，関節から\\関節側にある細径MPAの交点への直線とのなす角
+  \end{tabular}\\ \hline
+  $  re[mm]     $ & 関節から腱の付着点までの長さ                                                       \\ \hline
+  $ d_0[mm]     $ & 関節から腱への垂線の長さ                                                           \\ \hline
+  $ L_Te[mm]    $ & 腱付着点から関節側にある細径MPAの交点までの長さ                                      \\ \hline
+  $ Se_1[mm]    $ & 
+  \begin{tabular}{c}
+  関節から腱への垂線と腱との交点から\\関節側にある細径MPAの交点までの長さ
+  \end{tabular}\\ \hline
+  $\theta_e[deg] $ & 関節から腱への垂線と，腱の付着点から関節への直線とのなす角                            \\ \hline
+  $ \psi[deg]    $ & 関節側の細径MPAの交点から腱の付着点の直線と水平な直線とのなす角                        \\ \hline
+  $ Se_2[mm]    $ & 
+  \begin{tabular}{c}
+  関節から腱への垂線と腱との交点から\\関節側にある細径MPAの交点までの長さ
+  \end{tabular}\\ \hline
+  $ l_1[mm]     $ & 細径MPA動作前の細径MPAの長さ                                                       \\ \hline
+  $\theta_1[deg] $ & 細径MPA動作前の羽状角の大きさ                                                      \\ \hline
+  $ l_2[mm]     $ & 細径MPA動作後の細径MPAの長さ                                                       \\ \hline
+  $\theta_2[deg] $ & 細径MPA動作後の羽状角の大きさ                                                      \\ \hline
+  $d[mm]        $ & 腱から外骨格までの垂直距離                                                         \\ \hline
+  \end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htbp]
+  \begin{minipage}{0.5\hsize}
+    \centering
+    \vspace{5mm}
+    \caption{長節-腕節間(開筋)のパラメータ}
+    \label{tab:parameta_1_1}
+    \vspace{-3mm}
+    \begin{tabular}{|l|c|}
+    \hline
+    $\theta _f[deg]$ & 39.5                         \\ \hline
+    $\phi[deg]     $ & 64.3                         \\ \hline
+    $re[mm]        $ & 24.7                         \\ \hline
+    $d_0[mm]       $ & 17.0                         \\ \hline
+    $L_Te[mm]      $ & 51.1                         \\ \hline
+    $Se_1[mm]      $ & 35.3                         \\ \hline
+    $\theta_e[deg] $ & 51.5                         \\ \hline
+    $\psi[deg]     $ & 11.5                         \\ \hline
+    $Se_2[mm]      $ & 69.4                         \\ \hline
+    $l_1[mm]       $ & 156                          \\ \hline
+    $\theta_1[deg] $ & 20.0                         \\ \hline
+    $l_2[mm]       $ & 125                          \\ \hline
+    $\theta_2[deg] $ & 25.3                         \\ \hline
+    $d[mm]         $ & 53.4                         \\ \hline
+    $Se[mm]        $ & 34.1                         \\ \hline
+    $Se'[mm]       $ & 31.0                         \\ \hline
+    \end{tabular}
+  \end{minipage}
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering
+    \vspace{5mm}
+    \caption{長節-腕節間(閉筋)のパラメータ}
+    \label{tab:parameta_1_2}
+    \vspace{-3mm}
+    \begin{tabular}{|l|c|}
+    \hline
+    $\theta _f[deg]$ & 39.5                         \\ \hline
+    $\phi[deg]     $ & 64.3                         \\ \hline
+    $re[mm]        $ & 24.9                         \\ \hline
+    $d_0[mm]       $ & 17.0                         \\ \hline
+    $L_Te[mm]      $ & 64.18                        \\ \hline
+    $Se_1[mm]      $ & 35.3                         \\ \hline
+    $\theta_e[deg] $ & 51.5                         \\ \hline
+    $\psi[deg]     $ & 11.5                         \\ \hline
+    $Se_2[mm]      $ & 69.8                         \\ \hline
+    $l_1[mm]       $ & 156                          \\ \hline
+    $\theta_1[deg] $ & 20.0                         \\ \hline
+    $l_2[mm]       $ & 125                          \\ \hline
+    $\theta_2[deg] $ & 25.3                         \\ \hline
+    $d[mm]         $ & 53.4                         \\ \hline
+    $Se[mm]        $ & 33.9                         \\ \hline
+    $Se'[mm]       $ & 31.0                         \\ \hline
+    \end{tabular}
+  \end{minipage}
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering
+    \vspace{5mm}
+    \caption{腕節-前節間(開筋)のパラメータ}
+    \label{tab:parameta_2_1}
+    \vspace{-3mm}
+    \begin{tabular}{|l|c|}
+    \hline
+    $\theta_f[deg] $ & 45                           \\ \hline
+    $\phi[deg]     $ & 90.0                         \\ \hline
+    $re[mm]        $ & 27.1                         \\ \hline
+    $d_0[mm]       $ & 0                            \\ \hline
+    $L_Te[mm]      $ & 44.9                         \\ \hline
+    $Se_1[mm]      $ & 19.0                         \\ \hline
+    $\theta_e[deg] $ & 0                            \\ \hline
+    $\psi[deg]     $ & 0.707                        \\ \hline
+    $Se_2[mm]      $ & 14.6                         \\ \hline
+    $l_1[mm]       $ & 57.8                         \\ \hline
+    $\theta_1[deg] $ & 20.0                         \\ \hline
+    $l_2[mm]       $ & 46.2                         \\ \hline
+    $\theta_2[deg] $ & 25.3                         \\ \hline
+    $d[mm]         $ & 19.8                         \\ \hline
+    $Se[mm]        $ & 13.6                         \\ \hline
+    $Se'[mm]       $ & 11.6                         \\ \hline
+    \end{tabular}
+  \end{minipage}
+  %
+  %
+  \begin{minipage}{0.5\hsize}
+    \centering
+    \vspace{5mm}
+    \caption{腕節-前節間(閉筋)のパラメータ}
+    \label{tab:parameta_2_2}
+    \vspace{-3mm}
+    \begin{tabular}{|l|c|}
+    \hline
+    $\theta _f[deg]$ & 68.7                         \\ \hline
+    $\phi[deg]     $ & 90.0                         \\ \hline
+    $re[mm]        $ & 24.9                         \\ \hline
+    $d_0[mm]       $ & 0                            \\ \hline
+    $L_Te[mm]      $ & 49.7                         \\ \hline
+    $Se_1[mm]      $ & 18.8                         \\ \hline
+    $\theta_e[deg] $ & 21.6                         \\ \hline
+    $\psi[deg]     $ & 33.7                         \\ \hline
+    $Se_2[mm]      $ & 30.3                         \\ \hline
+    $l_1[mm]       $ & 57.8                         \\ \hline
+    $\theta_1[deg] $ & 20.0                         \\ \hline
+    $l_2[mm]       $ & 46.2                         \\ \hline
+    $\theta_2[deg] $ & 25.3                         \\ \hline
+    $d[mm]         $ & 19.8                         \\ \hline
+    $Se[mm]        $ & 25.5                         \\ \hline
+    $Se'[mm]       $ & 11.6                         \\ \hline
+    \end{tabular}
+  \end{minipage}
+\end{table}
+%
+\begin{table}[htbp]
+\begin{minipage}{0.5\hsize}
+  \centering
+  \vspace{5mm}
+  \caption{前節-指節間(開筋)のパラメータ}
+  \label{tab:parameta_3_1}
+  \vspace{-3mm}
+  \begin{tabular}{|l|c|}
+  \hline
+  $\theta _f[deg]$ & 80                           \\ \hline
+  $\phi[deg]     $ & 90.0                         \\ \hline
+  $re[mm]        $ & 16.7                         \\ \hline
+  $d_0[mm]       $ & 0                            \\ \hline
+  $L_Te[mm]      $ & 78.9                         \\ \hline
+  $Se_1[mm]      $ & 78.9                         \\ \hline
+  $\theta_e[deg] $ & 0                            \\ \hline
+  $\psi[deg]     $ & 12.6                         \\ \hline
+  $Se_2[mm]      $ & 90.5                         \\ \hline
+  $l_1[mm]       $ & 58.5                         \\ \hline
+  $\theta_1[deg] $ & 20.0                         \\ \hline
+  $l_2[mm]       $ & 46.8                         \\ \hline
+  $\theta_2[deg] $ & 25.3                         \\ \hline
+  $d[mm]         $ & 20.0                         \\ \hline
+  $Se[mm]        $ & 9.81                         \\ \hline
+  $Se'[mm]       $ & 11.7                         \\ \hline
+  \end{tabular}
+\end{minipage}
+%
+\begin{minipage}{0.5\hsize}
+  \centering
+  \vspace{5mm}
+  \caption{前節-指節間(閉筋)のパラメータ}
+  \label{tab:parameta_3_2}
+  \vspace{-3mm}
+  \begin{tabular}{|l|c|}
+  \hline
+  $\theta _f[deg]$ & 88.0                         \\ \hline
+  $\phi[deg]     $ & 90.0                         \\ \hline
+  $re[mm]        $ & 16.7                         \\ \hline
+  $d_0[mm]       $ & 0                            \\ \hline
+  $L_Te[mm]      $ & 78.9                         \\ \hline
+  $Se_1[mm]      $ & 78.9                         \\ \hline
+  $\theta_e[deg] $ & 1.00                         \\ \hline
+  $\psi[deg]     $ & 27.2                         \\ \hline
+  $Se_2[mm]      $ & 90.5                         \\ \hline
+  $l_1[mm]       $ & 58.5                         \\ \hline
+  $\theta_1[deg] $ & 20.0                         \\ \hline
+  $l_2[mm]       $ & 46.8                         \\ \hline
+  $\theta_2[deg] $ & 25.3                         \\ \hline
+  $d[mm]         $ & 20.0                         \\ \hline
+  $Se[mm]        $ & 11.5                         \\ \hline
+  $Se'[mm]       $ & 11.7                         \\ \hline
+  \end{tabular}
+\end{minipage}
+\end{table}
