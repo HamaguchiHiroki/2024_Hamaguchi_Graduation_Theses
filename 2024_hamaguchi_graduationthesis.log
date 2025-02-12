@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  11 FEB 2025 16:29
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  12 FEB 2025 11:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -393,16 +393,10 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 \openout2 = `chapters/sec3.aux'.
 
  (./chapters/sec3.tex
-File: image/kokkaku.png Graphic file (type bmp)
-<image/kokkaku.png>
 File: image/apearance3_1.png Graphic file (type bmp)
 <image/apearance3_1.png>
-File: image/setukanmaku.jpg Graphic file (type bmp)
-<image/setukanmaku.jpg>
-File: image/ujo.JPG Graphic file (type bmp)
-<image/ujo.JPG>
-File: image/degree_jikken.png Graphic file (type bmp)
-<image/degree_jikken.png>
+File: image/kokkaku.png Graphic file (type bmp)
+<image/kokkaku.png>
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
@@ -411,35 +405,27 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 
 ]
+File: image/ujo.JPG Graphic file (type bmp)
+<image/ujo.JPG>
+File: image/degree_jikken.png Graphic file (type bmp)
+<image/degree_jikken.png>
+File: image/setukanmaku.jpg Graphic file (type bmp)
+<image/setukanmaku.jpg>
+File: image/model_1.jpg Graphic file (type bmp)
+<image/model_1.jpg>
+File: image/model_2.jpg Graphic file (type bmp)
+<image/model_2.jpg>
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [6]
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [7]
-File: image/model_1.jpg Graphic file (type bmp)
-<image/model_1.jpg>
-File: image/model_2.jpg Graphic file (type bmp)
-<image/model_2.jpg>
 File: image/model_2_open.jpg Graphic file (type bmp)
 <image/model_2_open.jpg>
 File: image/model_2_close.jpg Graphic file (type bmp)
 <image/model_2_close.jpg>
-
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 231--339
-[][]$[]$[] []$[]$[]
- []
-
-
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 231--339
-[]$[]$[] []$[]$[] 
- []
-
-
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 342--395
-[][]$[]$[] []$[]$[] 
- []
-
 )
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
@@ -450,9 +436,6 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [10]
-Overfull \vbox (16.5851pt too high) has occurred while \output is active []
-
- [11]
 \openout2 = `chapters/sec4.aux'.
 
  (./chapters/sec4.tex
@@ -471,14 +454,14 @@ File: image/MPA_cap.png Graphic file (type bmp)
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [12
+ [11
 
 
 
 ]
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [13]
+ [12]
 File: image/messhu_hikaku_1.jpg Graphic file (type bmp)
 <image/messhu_hikaku_1.jpg>
 File: image/messhu_hikaku_2.jpg Graphic file (type bmp)
@@ -492,12 +475,12 @@ File: image/messhu_tejyun.jpg Graphic file (type bmp)
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [14
+ [13
 
 ]
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [15]
+ [14]
 File: image/ujyoukin.jpg Graphic file (type bmp)
 <image/ujyoukin.jpg>
 File: image/syuseki_1.JPG Graphic file (type bmp)
@@ -533,15 +516,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 268--288
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [16
+ [15
 
 ])
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [17]
+ [16]
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [18]
+ [17]
 \openout2 = `chapters/sec5.aux'.
 
  (./chapters/sec5.tex
@@ -549,6 +532,14 @@ File: image/jikki_2.png Graphic file (type bmp)
 <image/jikki_2.png>
 File: image/marker.jpg Graphic file (type bmp)
 <image/marker.jpg>
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [18
+
+
+
+]
 File: image/chousetu-wansetu_edited.png Graphic file (type bmp)
 <image/chousetu-wansetu_edited.png>
 File: image/wansetu-zensetu_edited.png Graphic file (type bmp)
@@ -560,17 +551,10 @@ File: image/kadouiki_graph.jpg Graphic file (type bmp)
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [19
-
-
-
-]
+ [19]
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [20]
-Overfull \vbox (16.5851pt too high) has occurred while \output is active []
-
- [21]
 File: image/kenkotei.jpg Graphic file (type bmp)
 <image/kenkotei.jpg>
 File: image/moshiki_edited.png Graphic file (type bmp)
@@ -580,7 +564,7 @@ File: image/model_jikki_defference.png Graphic file (type bmp)
 )
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [22
+ [21
 
 ]
 \openout2 = `chapters/conclusion.aux'.
@@ -588,7 +572,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
  (./chapters/conclusion.tex)
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [23
+ [22
 
 
 
@@ -598,7 +582,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
  (./chapters/acknowledgement.tex)
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [24
+ [23
 
 
 
@@ -613,7 +597,7 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 ))
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [25
+ [24
 
 
 
@@ -625,12 +609,12 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6140 strings out of 474761
- 109946 string characters out of 5761786
- 1955341 words of memory out of 5000000
- 28301 multiletter control sequences out of 15000+600000
- 573253 words of font info for 94 fonts, out of 8000000 for 9000
+ 6142 strings out of 474761
+ 109963 string characters out of 5761786
+ 1959341 words of memory out of 5000000
+ 28302 multiletter control sequences out of 15000+600000
+ 573442 words of font info for 95 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 71i,15n,79p,452b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 71i,16n,79p,452b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 2024_hamaguchi_graduationthesis.dvi (29 pages, 96816 bytes).
+Output written on 2024_hamaguchi_graduationthesis.dvi (28 pages, 97420 bytes).
