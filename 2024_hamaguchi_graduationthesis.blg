@@ -2,6 +2,7 @@ This is upBibTeX, Version 0.99d-j0.36-u1.30 (utf8.uptex) (TeX Live 2024)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 2024_hamaguchi_graduationthesis.aux
 A level-1 auxiliary file: chapters/abstract.aux
+A level-1 auxiliary file: chapters/abstract_english.aux
 A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/sec2.aux
 A level-1 auxiliary file: chapters/sec3.aux
@@ -14,7 +15,7 @@ The style file: junsrt.bst
 Database file #1: reference.bib
 You've used 10 entries,
             2270 wiz_defined-function locations,
-            607 strings with 6055 characters,
+            608 strings with 6084 characters,
 and the built_in function-call counts, 3888 in all, are:
 = -- 309
 > -- 106

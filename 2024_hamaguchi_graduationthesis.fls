@@ -106,6 +106,9 @@ INPUT 2024_hamaguchi_graduationthesis.aux
 INPUT ./chapters/abstract.aux
 INPUT ./chapters/abstract.aux
 INPUT chapters/abstract.aux
+INPUT ./chapters/abstract_english.aux
+INPUT ./chapters/abstract_english.aux
+INPUT chapters/abstract_english.aux
 INPUT ./chapters/introduction.aux
 INPUT ./chapters/introduction.aux
 INPUT chapters/introduction.aux
@@ -154,6 +157,12 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./chapters/abstract_english.tex
+INPUT ./chapters/abstract_english.tex
+OUTPUT chapters/abstract_english.aux
+INPUT ./chapters/abstract_english.tex
+INPUT ./chapters/abstract_english.tex
+INPUT chapters/abstract_english.tex
 INPUT ./2024_hamaguchi_graduationthesis.toc
 INPUT ./2024_hamaguchi_graduationthesis.toc
 INPUT 2024_hamaguchi_graduationthesis.toc
@@ -441,6 +450,9 @@ INPUT 2024_hamaguchi_graduationthesis.aux
 INPUT ./chapters/abstract.aux
 INPUT ./chapters/abstract.aux
 INPUT chapters/abstract.aux
+INPUT ./chapters/abstract_english.aux
+INPUT ./chapters/abstract_english.aux
+INPUT chapters/abstract_english.aux
 INPUT ./chapters/introduction.aux
 INPUT ./chapters/introduction.aux
 INPUT chapters/introduction.aux

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  12 FEB 2025 16:22
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  12 FEB 2025 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -274,7 +274,7 @@ File: l3backend-dvipdfmx.def 2024-03-14 L3 backend support: dvipdfmx
 \g__pdf_backend_object_int=\count290
 \g__pdf_backend_annotation_int=\count291
 \g__pdf_backend_link_int=\count292
-) (./2024_hamaguchi_graduationthesis.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
+) (./2024_hamaguchi_graduationthesis.aux (./chapters/abstract.aux) (./chapters/abstract_english.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
 \openout1 = `2024_hamaguchi_graduationthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -325,12 +325,16 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 2.
- [2
+) [2
 
-])
-Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+]
+\openout2 = `chapters/abstract_english.aux'.
 
- [3] (./2024_hamaguchi_graduationthesis.toc
+ (./chapters/abstract_english.tex) [3
+
+
+
+] (./2024_hamaguchi_graduationthesis.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
@@ -397,6 +401,12 @@ File: image/apearance3_1.png Graphic file (type bmp)
 <image/apearance3_1.png>
 File: image/kokkaku.png Graphic file (type bmp)
 <image/kokkaku.png>
+File: image/ujo.JPG Graphic file (type bmp)
+<image/ujo.JPG>
+File: image/degree_jikken.png Graphic file (type bmp)
+<image/degree_jikken.png>
+File: image/setukanmaku.jpg Graphic file (type bmp)
+<image/setukanmaku.jpg>
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
@@ -405,12 +415,6 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 
 ]
-File: image/ujo.JPG Graphic file (type bmp)
-<image/ujo.JPG>
-File: image/degree_jikken.png Graphic file (type bmp)
-<image/degree_jikken.png>
-File: image/setukanmaku.jpg Graphic file (type bmp)
-<image/setukanmaku.jpg>
 File: image/model_1.jpg Graphic file (type bmp)
 <image/model_1.jpg>
 File: image/model_2.jpg Graphic file (type bmp)
@@ -598,7 +602,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 
 
-] (./2024_hamaguchi_graduationthesis.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
+] (./2024_hamaguchi_graduationthesis.aux (./chapters/abstract.aux) (./chapters/abstract_english.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
@@ -606,12 +610,12 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6142 strings out of 474761
- 109963 string characters out of 5761786
- 1961341 words of memory out of 5000000
- 28302 multiletter control sequences out of 15000+600000
+ 6167 strings out of 474761
+ 110951 string characters out of 5761786
+ 1963341 words of memory out of 5000000
+ 28320 multiletter control sequences out of 15000+600000
  573442 words of font info for 95 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  71i,16n,79p,452b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 2024_hamaguchi_graduationthesis.dvi (27 pages, 97452 bytes).
+Output written on 2024_hamaguchi_graduationthesis.dvi (27 pages, 97484 bytes).
