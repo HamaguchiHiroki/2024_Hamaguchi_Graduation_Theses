@@ -10,17 +10,17 @@
 \contentsline {subsubsection}{\numberline {3.1.3}可動域，各部寸法，および可動域について}{6}{}%
 \contentsline {subsection}{\numberline {3.2}羽状筋および関節構造のモデル化および可動域の計算}{7}{}%
 \contentsline {subsubsection}{\numberline {3.2.1}羽状筋および関節構造のモデル化}{7}{}%
-\contentsline {section}{\numberline {4}改良型細径羽状筋の開発}{11}{}%
-\contentsline {subsection}{\numberline {4.1}先行研究で確認された課題}{11}{}%
-\contentsline {subsection}{\numberline {4.2}課題１：細径MPAの制作方法の改良}{11}{}%
-\contentsline {subsection}{\numberline {4.3}課題２：細径MPAの収縮率向上}{13}{}%
-\contentsline {subsection}{\numberline {4.4}課題３：羽状角の変化に対する対応}{15}{}%
-\contentsline {subsection}{\numberline {4.5}改良型細径羽状筋}{16}{}%
-\contentsline {section}{\numberline {5}動作実験}{18}{}%
-\contentsline {subsection}{\numberline {5.1}改良型細径羽状筋を備えたロボット}{18}{}%
-\contentsline {subsection}{\numberline {5.2}動作実験}{18}{}%
-\contentsline {subsection}{\numberline {5.3}実験結果}{18}{}%
-\contentsline {subsection}{\numberline {5.4}考察}{21}{}%
-\contentsline {section}{\numberline {6}結言}{22}{}%
-\contentsline {section}{謝辞}{23}{}%
-\contentsline {section}{参考文献}{24}{}%
+\contentsline {section}{\numberline {4}改良型細径羽状筋の開発}{10}{}%
+\contentsline {subsection}{\numberline {4.1}先行研究で確認された課題}{10}{}%
+\contentsline {subsection}{\numberline {4.2}課題１：細径MPAの制作方法の改良}{10}{}%
+\contentsline {subsection}{\numberline {4.3}課題２：細径MPAの収縮率向上}{12}{}%
+\contentsline {subsection}{\numberline {4.4}課題３：羽状角の変化に対する対応}{14}{}%
+\contentsline {subsection}{\numberline {4.5}改良型細径羽状筋}{15}{}%
+\contentsline {section}{\numberline {5}動作実験}{17}{}%
+\contentsline {subsection}{\numberline {5.1}改良型細径羽状筋を備えたロボット}{17}{}%
+\contentsline {subsection}{\numberline {5.2}動作実験}{17}{}%
+\contentsline {subsection}{\numberline {5.3}実験結果}{17}{}%
+\contentsline {subsection}{\numberline {5.4}考察}{20}{}%
+\contentsline {section}{\numberline {6}結言}{21}{}%
+\contentsline {section}{謝辞}{22}{}%
+\contentsline {section}{参考文献}{23}{}%
